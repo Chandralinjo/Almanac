@@ -37,10 +37,10 @@ Uses the confirmed individual-ingredient alternative model; use synthetic food f
 
 Depends on M0's data selection and M1's ingredient contracts.
 
-- [ ] Create versioned SQLite schema/repositories with foreign keys, transactions, migrations, and archive behavior.
-- [ ] Implement reproducible curation, bundled seed initialization, provenance, and user override precedence.
-- [ ] Build ingredient browse/search/detail/edit/add screens, including reference units and conversion editing.
-- [ ] Verify interrupted initialization and upgrade behavior against a populated fixture database.
+- [x] Create versioned SQLite schema/repositories with foreign keys, transactions, migrations, and archive behavior.
+- [x] Implement reproducible curation, bundled seed initialization, provenance, and user override precedence.
+- [x] Build ingredient browse/search/detail/edit/add screens, including reference units and conversion editing.
+- [x] Verify interrupted initialization and upgrade behavior against a populated fixture database.
 
 **Exit:** a fresh offline install has useful foods; custom edits and new records survive process restarts and a tested upgrade.
 

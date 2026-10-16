@@ -1,22 +1,29 @@
 # Almanac
 
-Offline Android recipe and nutrient tracker using Python/Kivy. The `setup/`
-directory contains the phone deployment spike. M1 now provides a UI-independent
-domain engine, tested without Kivy, plus a sourced starter catalog of 26 foods.
+Offline Android recipe and nutrient tracker using Python/Kivy. M2 now provides
+ingredient browse/search/detail/add/edit screens, explicit reference units and
+conversions, reversible archive, and transactional persistent storage. The 26-food
+USDA catalog initializes offline and upgrades without replacing personal edits.
 
 From the repository root (Python 3.9+; tested with Python 3.12):
 
 ```sh
 python -m unittest discover -v
 python tools/build_staples.py
+# With Kivy installed:
+python main.py
 ```
 
-The build reads bundled source rows and needs no network. Data provenance,
-nutrient definitions, portion assumptions, and reproduction instructions are in
-`data/README.md`. `setup/foods.db` is packaged by the existing Buildozer config.
-Run the spike with `cd setup` then `python main.py` in an environment with Kivy.
-The previously tested Android toolchain is retained; this milestone does not
-claim a new APK or device verification.
+Build Android using `cd setup` then `buildozer android debug` in your established
+build environment. `setup/buildozer.spec` now packages the repository root. Keep
+the same app identity and signing key to preserve phone data. See `docs/M2.md`
+for storage/migration details, desktop UI checks and the Galaxy S25 checklist.
+
+Source provenance, nutrient definitions, portion assumptions and reproducible
+curation instructions are in `data/README.md`. Runtime uses bundled
+`data/staples.json`; `setup/foods.db` remains a reproducible M1 seed/migration
+fixture. There is no runtime network access. Recipe/pantry/logging screens and
+backup remain future milestones.
 
 ## M1 API
 
@@ -72,6 +79,6 @@ and ID. The M1 search enumerates branch combinations for exact results, includin
 shared alternatives. Its worst case is exponential; large recipe collections and
 branch-heavy recipes need M4 performance profiling before UI integration.
 
-M2–M6 retain responsibility for persistent user data, ingredient and recipe
-screens, pantry UI, meal storage, migration, and backup. No runtime API or network
-access is introduced by M1.
+M3–M6 retain responsibility for recipe screens, pantry UI, meal storage and backup.
+M2 persistence is implemented in `almanac/storage.py`, with domain-validated forms
+in `almanac/forms.py` and Kivy screens in `almanac/ui.py`.

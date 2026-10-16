@@ -15,7 +15,7 @@ package.name = almanac
 package.domain = org.almanac
 
 # (str) Source code where the main.py live
-source.dir = .
+source.dir = ..
 
 # (list) Source files to include (leave empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas,json,db
@@ -27,14 +27,14 @@ source.include_exts = py,png,jpg,kv,atlas,json,db
 #source.exclude_exts = spec
 
 # (list) List of directory to exclude (leave empty to not exclude anything)
-#source.exclude_dirs = tests, bin, venv
+source.exclude_dirs = tests, tools, bin, work, .git, .github, .venv, .buildozer, setup/.buildozer, setup/bin
 
 # (list) List of exclusions using pattern matching
 # Do not prefix with './'
-#source.exclude_patterns = license,images/*/*.jpg
+source.exclude_patterns = data/usda/*,setup/main.py,setup/seed_database.py,setup/foods.db
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 0.2.0
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]

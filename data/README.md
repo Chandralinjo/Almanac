@@ -43,9 +43,9 @@ estimates, not universal sizes. Descriptions are preserved in JSON and SQLite.
 There is no automatic mass/volume conversion or inferred teaspoon-to-tablespoon
 conversion. Add an explicitly documented mapping when another measure is needed.
 
-The SQLite file is a bundled seed asset, not the M2 user-data repository. Building
-it replaces only the selected build output. The setup app copies its bundle only
-when no writable database exists, so rebuilding or upgrading does not replace a
-phone's existing database. A phone running the earlier spike will keep its old
-12-food database; catalog upgrade/override merging belongs to M2. A separate clean
-test installation can exercise the new seed without deleting existing app data.
+The SQLite file is a reproducible M1 seed asset and legacy-migration fixture.
+M2 packages `staples.json`, validates it, and reconciles it into a distinct writable
+`almanac.db` inside Kivy's persistent app directory. Personal overrides/custom
+foods are separate from seed baselines. The earlier phone `foods.db` is imported
+once and retained untouched; upgrades now expose the 26-food catalog without
+clearing app data. See `docs/M2.md` for the transaction and override rules.

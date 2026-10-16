@@ -1,4 +1,4 @@
-name: Domain and seed validation
+name: Domain, storage and ingredient screens
 on: [push, pull_request]
 jobs:
   test:
@@ -9,3 +9,11 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -v
+      - run: python -m pip install kivy==2.3.1
+      - name: Exercise Kivy ingredient screens
+        run: python -m unittest tests.ui_smoke -v
+        env:
+          SDL_VIDEODRIVER: offscreen
+          KIVY_NO_ARGS: '1'
+          KIVY_HOME: ${{ runner.temp }}/kivy
+          XDG_CACHE_HOME: ${{ runner.temp }}/cache
