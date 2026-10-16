@@ -1,5 +1,5 @@
 {
-  "catalog_version": "usda-sr28-staples-1",
+  "catalog_version": "usda-sr28-staples-2",
   "foods": [
     {
       "category": "Dairy and Egg Products",
@@ -43,6 +43,175 @@
       "category": "Dairy and Egg Products",
       "conversion_descriptions": {},
       "conversions": {},
+      "id": "usda-sr28:01012",
+      "name": "Cheese, cottage, creamed, large or small curd",
+      "nutrition": {
+        "calories": 98.0,
+        "carbs": 3.38,
+        "fat": 4.3,
+        "protein": 11.12
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01012"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 14.5
+      },
+      "id": "usda-sr28:01017",
+      "name": "Cheese, cream",
+      "nutrition": {
+        "calories": 350.0,
+        "carbs": 5.52,
+        "fat": 34.44,
+        "protein": 6.15
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01017"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01019",
+      "name": "Cheese, feta",
+      "nutrition": {
+        "calories": 264.0,
+        "carbs": 4.09,
+        "fat": 21.28,
+        "protein": 14.21
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01019"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01026",
+      "name": "Cheese, mozzarella, whole milk",
+      "nutrition": {
+        "calories": 300.0,
+        "carbs": 2.19,
+        "fat": 22.35,
+        "protein": 22.17
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01026"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01033",
+      "name": "Cheese, parmesan, hard",
+      "nutrition": {
+        "calories": 392.0,
+        "carbs": 3.22,
+        "fat": 25.83,
+        "protein": 35.75
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01033"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01036",
+      "name": "Cheese, ricotta, whole milk",
+      "nutrition": {
+        "calories": 174.0,
+        "carbs": 3.04,
+        "fat": 12.98,
+        "protein": 11.26
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01036"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 15.0
+      },
+      "id": "usda-sr28:01049",
+      "name": "Cream, fluid, half and half",
+      "nutrition": {
+        "calories": 123.0,
+        "carbs": 4.73,
+        "fat": 10.39,
+        "protein": 3.13
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01049"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 15.0
+      },
+      "id": "usda-sr28:01053",
+      "name": "Cream, fluid, heavy whipping",
+      "nutrition": {
+        "calories": 340.0,
+        "carbs": 2.74,
+        "fat": 36.08,
+        "protein": 2.84
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01053"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 12.0
+      },
+      "id": "usda-sr28:01056",
+      "name": "Cream, sour, cultured",
+      "nutrition": {
+        "calories": 198.0,
+        "carbs": 4.63,
+        "fat": 19.35,
+        "protein": 2.44
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01056"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
       "id": "usda-sr28:01077",
       "name": "Milk, whole, 3.25% milkfat, with added vitamin D",
       "nutrition": {
@@ -55,6 +224,23 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "01077"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01085",
+      "name": "Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",
+      "nutrition": {
+        "calories": 34.0,
+        "carbs": 4.96,
+        "fat": 0.08,
+        "protein": 3.37
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01085"
     },
     {
       "category": "Dairy and Egg Products",
@@ -95,6 +281,452 @@
       "source_id": "01123"
     },
     {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01124",
+      "name": "Egg, white, raw, fresh",
+      "nutrition": {
+        "calories": 52.0,
+        "carbs": 0.73,
+        "fat": 0.17,
+        "protein": 10.9
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01124"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01125",
+      "name": "Egg, yolk, raw, fresh",
+      "nutrition": {
+        "calories": 322.0,
+        "carbs": 3.59,
+        "fat": 26.54,
+        "protein": 15.86
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01125"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01230",
+      "name": "Milk, buttermilk, fluid, whole",
+      "nutrition": {
+        "calories": 62.0,
+        "carbs": 4.88,
+        "fat": 3.31,
+        "protein": 3.21
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01230"
+    },
+    {
+      "category": "Dairy and Egg Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:01293",
+      "name": "Yogurt, Greek, plain, whole milk",
+      "nutrition": {
+        "calories": 97.0,
+        "carbs": 3.98,
+        "fat": 5.0,
+        "protein": 9.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "01293"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 6.0,
+        "tsp": 1.9
+      },
+      "id": "usda-sr28:02001",
+      "name": "Spices, allspice, ground",
+      "nutrition": {
+        "calories": 263.0,
+        "carbs": 72.12,
+        "fat": 8.69,
+        "protein": 6.09
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02001"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02003",
+      "name": "Spices, basil, dried",
+      "nutrition": {
+        "calories": 233.0,
+        "carbs": 47.75,
+        "fat": 4.07,
+        "protein": 22.98
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02003"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02004",
+      "name": "Spices, bay leaf",
+      "nutrition": {
+        "calories": 313.0,
+        "carbs": 74.97,
+        "fat": 8.36,
+        "protein": 7.61
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02004"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02006",
+      "name": "Spices, cardamom",
+      "nutrition": {
+        "calories": 311.0,
+        "carbs": 68.47,
+        "fat": 6.7,
+        "protein": 10.76
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02006"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 8.0,
+        "tsp": 2.7
+      },
+      "id": "usda-sr28:02009",
+      "name": "Spices, chili powder",
+      "nutrition": {
+        "calories": 282.0,
+        "carbs": 49.7,
+        "fat": 14.28,
+        "protein": 13.46
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02009"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 7.8,
+        "tsp": 2.6
+      },
+      "id": "usda-sr28:02010",
+      "name": "Spices, cinnamon, ground",
+      "nutrition": {
+        "calories": 247.0,
+        "carbs": 80.59,
+        "fat": 1.24,
+        "protein": 3.99
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02010"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 6.5,
+        "tsp": 2.1
+      },
+      "id": "usda-sr28:02011",
+      "name": "Spices, cloves, ground",
+      "nutrition": {
+        "calories": 274.0,
+        "carbs": 65.53,
+        "fat": 13.0,
+        "protein": 5.97
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02011"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 5.0,
+        "tsp": 1.8
+      },
+      "id": "usda-sr28:02013",
+      "name": "Spices, coriander seed",
+      "nutrition": {
+        "calories": 298.0,
+        "carbs": 54.99,
+        "fat": 17.77,
+        "protein": 12.37
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02013"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02014",
+      "name": "Spices, cumin seed",
+      "nutrition": {
+        "calories": 375.0,
+        "carbs": 44.24,
+        "fat": 22.27,
+        "protein": 17.81
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02014"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 6.3,
+        "tsp": 2.0
+      },
+      "id": "usda-sr28:02015",
+      "name": "Spices, curry powder",
+      "nutrition": {
+        "calories": 325.0,
+        "carbs": 55.83,
+        "fat": 14.01,
+        "protein": 14.29
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02015"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 3.1,
+        "tsp": 1.0
+      },
+      "id": "usda-sr28:02017",
+      "name": "Spices, dill weed, dried",
+      "nutrition": {
+        "calories": 253.0,
+        "carbs": 55.82,
+        "fat": 4.36,
+        "protein": 19.96
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02017"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02018",
+      "name": "Spices, fennel seed",
+      "nutrition": {
+        "calories": 345.0,
+        "carbs": 52.29,
+        "fat": 14.87,
+        "protein": 15.8
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02018"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 9.7,
+        "tsp": 3.1
+      },
+      "id": "usda-sr28:02020",
+      "name": "Spices, garlic powder",
+      "nutrition": {
+        "calories": 331.0,
+        "carbs": 72.73,
+        "fat": 0.73,
+        "protein": 16.55
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02020"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 5.2,
+        "tsp": 1.8
+      },
+      "id": "usda-sr28:02021",
+      "name": "Spices, ginger, ground",
+      "nutrition": {
+        "calories": 335.0,
+        "carbs": 71.62,
+        "fat": 4.24,
+        "protein": 8.98
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02021"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 7.0,
+        "tsp": 2.2
+      },
+      "id": "usda-sr28:02025",
+      "name": "Spices, nutmeg, ground",
+      "nutrition": {
+        "calories": 525.0,
+        "carbs": 49.29,
+        "fat": 36.31,
+        "protein": 5.84
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02025"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 6.9,
+        "tsp": 2.4
+      },
+      "id": "usda-sr28:02026",
+      "name": "Spices, onion powder",
+      "nutrition": {
+        "calories": 341.0,
+        "carbs": 79.12,
+        "fat": 1.04,
+        "protein": 10.41
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02026"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02027",
+      "name": "Spices, oregano, dried",
+      "nutrition": {
+        "calories": 265.0,
+        "carbs": 68.92,
+        "fat": 4.28,
+        "protein": 9.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02027"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 6.8,
+        "tsp": 2.3
+      },
+      "id": "usda-sr28:02028",
+      "name": "Spices, paprika",
+      "nutrition": {
+        "calories": 282.0,
+        "carbs": 53.99,
+        "fat": 12.89,
+        "protein": 14.14
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02028"
+    },
+    {
       "category": "Spices and Herbs",
       "conversion_descriptions": {
         "tbsp": "tbsp, ground",
@@ -119,6 +751,166 @@
     },
     {
       "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 5.3,
+        "tsp": 1.8
+      },
+      "id": "usda-sr28:02031",
+      "name": "Spices, pepper, red or cayenne",
+      "nutrition": {
+        "calories": 318.0,
+        "carbs": 56.63,
+        "fat": 17.27,
+        "protein": 12.01
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02031"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 3.3,
+        "tsp": 1.2
+      },
+      "id": "usda-sr28:02036",
+      "name": "Spices, rosemary, dried",
+      "nutrition": {
+        "calories": 331.0,
+        "carbs": 64.06,
+        "fat": 15.22,
+        "protein": 4.88
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02036"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 2.0,
+        "tsp": 0.7
+      },
+      "id": "usda-sr28:02038",
+      "name": "Spices, sage, ground",
+      "nutrition": {
+        "calories": 315.0,
+        "carbs": 60.73,
+        "fat": 12.75,
+        "protein": 10.63
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02038"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02042",
+      "name": "Spices, thyme, dried",
+      "nutrition": {
+        "calories": 276.0,
+        "carbs": 63.94,
+        "fat": 7.43,
+        "protein": 9.11
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02042"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 9.4,
+        "tsp": 3.0
+      },
+      "id": "usda-sr28:02043",
+      "name": "Spices, turmeric, ground",
+      "nutrition": {
+        "calories": 312.0,
+        "carbs": 67.14,
+        "fat": 3.25,
+        "protein": 9.68
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02043"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02044",
+      "name": "Basil, fresh",
+      "nutrition": {
+        "calories": 23.0,
+        "carbs": 2.65,
+        "fat": 0.64,
+        "protein": 3.15
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02044"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02045",
+      "name": "Dill weed, fresh",
+      "nutrition": {
+        "calories": 43.0,
+        "carbs": 7.02,
+        "fat": 1.12,
+        "protein": 3.46
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02045"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:02046",
+      "name": "Mustard, prepared, yellow",
+      "nutrition": {
+        "calories": 60.0,
+        "carbs": 5.83,
+        "fat": 3.34,
+        "protein": 3.74
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02046"
+    },
+    {
+      "category": "Spices and Herbs",
       "conversion_descriptions": {},
       "conversions": {},
       "id": "usda-sr28:02047",
@@ -133,6 +925,211 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "02047"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 14.9,
+        "tsp": 5.0
+      },
+      "id": "usda-sr28:02048",
+      "name": "Vinegar, cider",
+      "nutrition": {
+        "calories": 21.0,
+        "carbs": 0.93,
+        "fat": 0.0,
+        "protein": 0.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02048"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 13.0,
+        "tsp": 4.2
+      },
+      "id": "usda-sr28:02050",
+      "name": "Vanilla extract",
+      "nutrition": {
+        "calories": 288.0,
+        "carbs": 12.65,
+        "fat": 0.06,
+        "protein": 0.06
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02050"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 14.9,
+        "tsp": 5.0
+      },
+      "id": "usda-sr28:02053",
+      "name": "Vinegar, distilled",
+      "nutrition": {
+        "calories": 18.0,
+        "carbs": 0.04,
+        "fat": 0.0,
+        "protein": 0.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02053"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 1.7,
+        "tsp": 0.7
+      },
+      "id": "usda-sr28:02063",
+      "name": "Rosemary, fresh",
+      "nutrition": {
+        "calories": 131.0,
+        "carbs": 20.7,
+        "fat": 5.86,
+        "protein": 3.31
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02063"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 14.9,
+        "tsp": 5.0
+      },
+      "id": "usda-sr28:02068",
+      "name": "Vinegar, red wine",
+      "nutrition": {
+        "calories": 19.0,
+        "carbs": 0.27,
+        "fat": 0.0,
+        "protein": 0.04
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02068"
+    },
+    {
+      "category": "Spices and Herbs",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 16.0,
+        "tsp": 5.3
+      },
+      "id": "usda-sr28:02069",
+      "name": "Vinegar, balsamic",
+      "nutrition": {
+        "calories": 88.0,
+        "carbs": 17.03,
+        "fat": 0.0,
+        "protein": 0.49
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "02069"
+    },
+    {
+      "category": "Fats and Oils",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 13.8
+      },
+      "id": "usda-sr28:04025",
+      "name": "Salad dressing, mayonnaise, regular",
+      "nutrition": {
+        "calories": 680.0,
+        "carbs": 0.57,
+        "fat": 74.85,
+        "protein": 0.96
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "04025"
+    },
+    {
+      "category": "Fats and Oils",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 13.5,
+        "tsp": 4.5
+      },
+      "id": "usda-sr28:04042",
+      "name": "Oil, peanut, salad or cooking",
+      "nutrition": {
+        "calories": 884.0,
+        "carbs": 0.0,
+        "fat": 100.0,
+        "protein": 0.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "04042"
+    },
+    {
+      "category": "Fats and Oils",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 13.6,
+        "tsp": 4.5
+      },
+      "id": "usda-sr28:04047",
+      "name": "Oil, coconut",
+      "nutrition": {
+        "calories": 892.0,
+        "carbs": 0.0,
+        "fat": 99.06,
+        "protein": 0.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "04047"
     },
     {
       "category": "Fats and Oils",
@@ -156,6 +1153,67 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "04053"
+    },
+    {
+      "category": "Fats and Oils",
+      "conversion_descriptions": {
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tsp": 4.5
+      },
+      "id": "usda-sr28:04058",
+      "name": "Oil, sesame, salad or cooking",
+      "nutrition": {
+        "calories": 884.0,
+        "carbs": 0.0,
+        "fat": 100.0,
+        "protein": 0.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "04058"
+    },
+    {
+      "category": "Fats and Oils",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 14.0,
+        "tsp": 4.5
+      },
+      "id": "usda-sr28:04582",
+      "name": "Oil, canola",
+      "nutrition": {
+        "calories": 884.0,
+        "carbs": 0.0,
+        "fat": 100.0,
+        "protein": 0.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "04582"
+    },
+    {
+      "category": "Poultry Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:05062",
+      "name": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+      "nutrition": {
+        "calories": 120.0,
+        "carbs": 0.0,
+        "fat": 2.62,
+        "protein": 22.5
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "05062"
     },
     {
       "category": "Breakfast Cereals",
@@ -197,6 +1255,23 @@
     },
     {
       "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09037",
+      "name": "Avocados, raw, all commercial varieties",
+      "nutrition": {
+        "calories": 160.0,
+        "carbs": 8.53,
+        "fat": 14.66,
+        "protein": 2.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09037"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
       "conversion_descriptions": {
         "piece": "medium (7\" to 7-7/8\" long)"
       },
@@ -217,6 +1292,261 @@
       "source_id": "09040"
     },
     {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09050",
+      "name": "Blueberries, raw",
+      "nutrition": {
+        "calories": 57.0,
+        "carbs": 14.49,
+        "fat": 0.33,
+        "protein": 0.74
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09050"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09148",
+      "name": "Kiwifruit, green, raw",
+      "nutrition": {
+        "calories": 61.0,
+        "carbs": 14.66,
+        "fat": 0.52,
+        "protein": 1.14
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09148"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09150",
+      "name": "Lemons, raw, without peel",
+      "nutrition": {
+        "calories": 29.0,
+        "carbs": 9.32,
+        "fat": 0.3,
+        "protein": 1.1
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09150"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09152",
+      "name": "Lemon juice, raw",
+      "nutrition": {
+        "calories": 22.0,
+        "carbs": 6.9,
+        "fat": 0.24,
+        "protein": 0.35
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09152"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09159",
+      "name": "Limes, raw",
+      "nutrition": {
+        "calories": 30.0,
+        "carbs": 10.54,
+        "fat": 0.2,
+        "protein": 0.7
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09159"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09160",
+      "name": "Lime juice, raw",
+      "nutrition": {
+        "calories": 25.0,
+        "carbs": 8.42,
+        "fat": 0.07,
+        "protein": 0.42
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09160"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09200",
+      "name": "Oranges, raw, all commercial varieties",
+      "nutrition": {
+        "calories": 47.0,
+        "carbs": 11.75,
+        "fat": 0.12,
+        "protein": 0.94
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09200"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09236",
+      "name": "Peaches, yellow, raw",
+      "nutrition": {
+        "calories": 39.0,
+        "carbs": 9.54,
+        "fat": 0.25,
+        "protein": 0.91
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09236"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09252",
+      "name": "Pears, raw",
+      "nutrition": {
+        "calories": 57.0,
+        "carbs": 15.23,
+        "fat": 0.14,
+        "protein": 0.36
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09252"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09298",
+      "name": "Raisins, seedless",
+      "nutrition": {
+        "calories": 299.0,
+        "carbs": 79.18,
+        "fat": 0.46,
+        "protein": 3.07
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09298"
+    },
+    {
+      "category": "Fruits and Fruit Juices",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:09316",
+      "name": "Strawberries, raw",
+      "nutrition": {
+        "calories": 32.0,
+        "carbs": 7.68,
+        "fat": 0.3,
+        "protein": 0.67
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "09316"
+    },
+    {
+      "category": "Pork Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:10060",
+      "name": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+      "nutrition": {
+        "calories": 109.0,
+        "carbs": 0.0,
+        "fat": 2.17,
+        "protein": 20.95
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "10060"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11011",
+      "name": "Asparagus, raw",
+      "nutrition": {
+        "calories": 20.0,
+        "carbs": 3.88,
+        "fat": 0.12,
+        "protein": 2.2
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11011"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11043",
+      "name": "Mung beans, mature seeds, sprouted, raw",
+      "nutrition": {
+        "calories": 30.0,
+        "carbs": 5.94,
+        "fat": 0.18,
+        "protein": 3.04
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11043"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11052",
+      "name": "Beans, snap, green, raw",
+      "nutrition": {
+        "calories": 31.0,
+        "carbs": 6.97,
+        "fat": 0.22,
+        "protein": 1.83
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11052"
+    },
+    {
       "category": "Vegetables and Vegetable Products",
       "conversion_descriptions": {},
       "conversions": {},
@@ -232,6 +1562,23 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "11090"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11109",
+      "name": "Cabbage, raw",
+      "nutrition": {
+        "calories": 25.0,
+        "carbs": 5.8,
+        "fat": 0.1,
+        "protein": 1.28
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11109"
     },
     {
       "category": "Vegetables and Vegetable Products",
@@ -258,6 +1605,112 @@
       "category": "Vegetables and Vegetable Products",
       "conversion_descriptions": {},
       "conversions": {},
+      "id": "usda-sr28:11135",
+      "name": "Cauliflower, raw",
+      "nutrition": {
+        "calories": 25.0,
+        "carbs": 4.97,
+        "fat": 0.28,
+        "protein": 1.92
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11135"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 7.5
+      },
+      "id": "usda-sr28:11143",
+      "name": "Celery, raw",
+      "nutrition": {
+        "calories": 16.0,
+        "carbs": 2.97,
+        "fat": 0.17,
+        "protein": 0.69
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11143"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11165",
+      "name": "Coriander (cilantro) leaves, raw",
+      "nutrition": {
+        "calories": 23.0,
+        "carbs": 3.67,
+        "fat": 0.52,
+        "protein": 2.13
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11165"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11167",
+      "name": "Corn, sweet, yellow, raw",
+      "nutrition": {
+        "calories": 86.0,
+        "carbs": 18.7,
+        "fat": 1.35,
+        "protein": 3.27
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11167"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11205",
+      "name": "Cucumber, with peel, raw",
+      "nutrition": {
+        "calories": 15.0,
+        "carbs": 3.63,
+        "fat": 0.11,
+        "protein": 0.65
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11205"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11209",
+      "name": "Eggplant, raw",
+      "nutrition": {
+        "calories": 25.0,
+        "carbs": 5.88,
+        "fat": 0.18,
+        "protein": 0.98
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11209"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
       "id": "usda-sr28:11215",
       "name": "Garlic, raw",
       "nutrition": {
@@ -270,6 +1723,95 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "11215"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tsp": 2.0
+      },
+      "id": "usda-sr28:11216",
+      "name": "Ginger root, raw",
+      "nutrition": {
+        "calories": 80.0,
+        "carbs": 17.77,
+        "fat": 0.75,
+        "protein": 1.82
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11216"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11233",
+      "name": "Kale, raw",
+      "nutrition": {
+        "calories": 49.0,
+        "carbs": 8.75,
+        "fat": 0.93,
+        "protein": 4.28
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11233"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11246",
+      "name": "Leeks, (bulb and lower leaf-portion), raw",
+      "nutrition": {
+        "calories": 61.0,
+        "carbs": 14.15,
+        "fat": 0.3,
+        "protein": 1.5
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11246"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11252",
+      "name": "Lettuce, iceberg (includes crisphead types), raw",
+      "nutrition": {
+        "calories": 14.0,
+        "carbs": 2.97,
+        "fat": 0.14,
+        "protein": 0.9
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11252"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11260",
+      "name": "Mushrooms, white, raw",
+      "nutrition": {
+        "calories": 22.0,
+        "carbs": 3.26,
+        "fat": 0.34,
+        "protein": 3.09
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11260"
     },
     {
       "category": "Vegetables and Vegetable Products",
@@ -292,6 +1834,82 @@
       "category": "Vegetables and Vegetable Products",
       "conversion_descriptions": {},
       "conversions": {},
+      "id": "usda-sr28:11291",
+      "name": "Onions, spring or scallions (includes tops and bulb), raw",
+      "nutrition": {
+        "calories": 32.0,
+        "carbs": 7.34,
+        "fat": 0.19,
+        "protein": 1.83
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11291"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 3.8
+      },
+      "id": "usda-sr28:11297",
+      "name": "Parsley, fresh",
+      "nutrition": {
+        "calories": 36.0,
+        "carbs": 6.33,
+        "fat": 0.79,
+        "protein": 2.97
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11297"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11304",
+      "name": "Peas, green, raw",
+      "nutrition": {
+        "calories": 81.0,
+        "carbs": 14.45,
+        "fat": 0.4,
+        "protein": 5.42
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11304"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 9.3
+      },
+      "id": "usda-sr28:11333",
+      "name": "Peppers, sweet, green, raw",
+      "nutrition": {
+        "calories": 20.0,
+        "carbs": 4.64,
+        "fat": 0.17,
+        "protein": 0.86
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11333"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
       "id": "usda-sr28:11352",
       "name": "Potatoes, flesh and skin, raw",
       "nutrition": {
@@ -304,6 +1922,23 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "11352"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11422",
+      "name": "Pumpkin, raw",
+      "nutrition": {
+        "calories": 26.0,
+        "carbs": 6.5,
+        "fat": 0.1,
+        "protein": 1.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11422"
     },
     {
       "category": "Vegetables and Vegetable Products",
@@ -326,6 +1961,40 @@
       "category": "Vegetables and Vegetable Products",
       "conversion_descriptions": {},
       "conversions": {},
+      "id": "usda-sr28:11477",
+      "name": "Squash, summer, zucchini, includes skin, raw",
+      "nutrition": {
+        "calories": 17.0,
+        "carbs": 3.11,
+        "fat": 0.32,
+        "protein": 1.21
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11477"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11507",
+      "name": "Sweet potato, raw, unprepared",
+      "nutrition": {
+        "calories": 86.0,
+        "carbs": 20.12,
+        "fat": 0.05,
+        "protein": 1.57
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11507"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
       "id": "usda-sr28:11529",
       "name": "Tomatoes, red, ripe, raw, year round average",
       "nutrition": {
@@ -338,6 +2007,349 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "11529"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 16.0
+      },
+      "id": "usda-sr28:11546",
+      "name": "Tomato products, canned, paste, without salt added",
+      "nutrition": {
+        "calories": 82.0,
+        "carbs": 18.91,
+        "fat": 0.47,
+        "protein": 4.32
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11546"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11547",
+      "name": "Tomato products, canned, puree, without salt added",
+      "nutrition": {
+        "calories": 38.0,
+        "carbs": 8.98,
+        "fat": 0.21,
+        "protein": 1.65
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11547"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11821",
+      "name": "Peppers, sweet, red, raw",
+      "nutrition": {
+        "calories": 31.0,
+        "carbs": 6.03,
+        "fat": 0.3,
+        "protein": 0.99
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11821"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 17.0
+      },
+      "id": "usda-sr28:11935",
+      "name": "Catsup",
+      "nutrition": {
+        "calories": 101.0,
+        "carbs": 27.4,
+        "fat": 0.1,
+        "protein": 1.04
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11935"
+    },
+    {
+      "category": "Vegetables and Vegetable Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:11951",
+      "name": "Peppers, sweet, yellow, raw",
+      "nutrition": {
+        "calories": 27.0,
+        "carbs": 6.32,
+        "fat": 0.21,
+        "protein": 1.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "11951"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:12006",
+      "name": "Seeds, chia seeds, dried",
+      "nutrition": {
+        "calories": 486.0,
+        "carbs": 42.12,
+        "fat": 30.74,
+        "protein": 16.54
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12006"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 9.0
+      },
+      "id": "usda-sr28:12023",
+      "name": "Seeds, sesame seeds, whole, dried",
+      "nutrition": {
+        "calories": 573.0,
+        "carbs": 23.45,
+        "fat": 49.67,
+        "protein": 17.73
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12023"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:12036",
+      "name": "Seeds, sunflower seed kernels, dried",
+      "nutrition": {
+        "calories": 584.0,
+        "carbs": 20.0,
+        "fat": 51.46,
+        "protein": 20.78
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12036"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:12061",
+      "name": "Nuts, almonds",
+      "nutrition": {
+        "calories": 579.0,
+        "carbs": 21.55,
+        "fat": 49.93,
+        "protein": 21.15
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12061"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:12087",
+      "name": "Nuts, cashew nuts, raw",
+      "nutrition": {
+        "calories": 553.0,
+        "carbs": 30.19,
+        "fat": 43.85,
+        "protein": 18.22
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12087"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:12108",
+      "name": "Nuts, coconut meat, dried (desiccated), not sweetened",
+      "nutrition": {
+        "calories": 660.0,
+        "carbs": 23.65,
+        "fat": 64.53,
+        "protein": 6.88
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12108"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 15.0
+      },
+      "id": "usda-sr28:12118",
+      "name": "Nuts, coconut milk, canned (liquid expressed from grated meat and water)",
+      "nutrition": {
+        "calories": 197.0,
+        "carbs": 2.81,
+        "fat": 21.33,
+        "protein": 2.02
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12118"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:12142",
+      "name": "Nuts, pecans",
+      "nutrition": {
+        "calories": 691.0,
+        "carbs": 13.86,
+        "fat": 71.97,
+        "protein": 9.17
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12142"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:12155",
+      "name": "Nuts, walnuts, english",
+      "nutrition": {
+        "calories": 654.0,
+        "carbs": 13.71,
+        "fat": 65.21,
+        "protein": 15.23
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12155"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 15.0
+      },
+      "id": "usda-sr28:12166",
+      "name": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+      "nutrition": {
+        "calories": 595.0,
+        "carbs": 21.19,
+        "fat": 53.76,
+        "protein": 17.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12166"
+    },
+    {
+      "category": "Nut and Seed Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:12220",
+      "name": "Seeds, flaxseed",
+      "nutrition": {
+        "calories": 534.0,
+        "carbs": 28.88,
+        "fat": 42.16,
+        "protein": 18.29
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "12220"
+    },
+    {
+      "category": "Finfish and Shellfish Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:15015",
+      "name": "Fish, cod, Atlantic, raw",
+      "nutrition": {
+        "calories": 82.0,
+        "carbs": 0.0,
+        "fat": 0.67,
+        "protein": 17.81
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "15015"
+    },
+    {
+      "category": "Finfish and Shellfish Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:15121",
+      "name": "Fish, tuna, light, canned in water, drained solids",
+      "nutrition": {
+        "calories": 86.0,
+        "carbs": 0.0,
+        "fat": 0.96,
+        "protein": 19.44
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "15121"
+    },
+    {
+      "category": "Finfish and Shellfish Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:15149",
+      "name": "Crustaceans, shrimp, mixed species, raw (may have been previously frozen)",
+      "nutrition": {
+        "calories": 71.0,
+        "carbs": 0.91,
+        "fat": 1.01,
+        "protein": 13.61
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "15149"
     },
     {
       "category": "Finfish and Shellfish Products",
@@ -355,6 +2367,124 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "15236"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 12.1
+      },
+      "id": "usda-sr28:16014",
+      "name": "Beans, black, mature seeds, raw",
+      "nutrition": {
+        "calories": 341.0,
+        "carbs": 62.36,
+        "fat": 1.42,
+        "protein": 21.6
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16014"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:16015",
+      "name": "Beans, black, mature seeds, cooked, boiled, without salt",
+      "nutrition": {
+        "calories": 132.0,
+        "carbs": 23.71,
+        "fat": 0.54,
+        "protein": 8.86
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16015"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:16027",
+      "name": "Beans, kidney, all types, mature seeds, raw",
+      "nutrition": {
+        "calories": 333.0,
+        "carbs": 60.01,
+        "fat": 0.83,
+        "protein": 23.58
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16027"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 11.0
+      },
+      "id": "usda-sr28:16028",
+      "name": "Beans, kidney, all types, mature seeds, cooked, boiled, without salt",
+      "nutrition": {
+        "calories": 127.0,
+        "carbs": 22.8,
+        "fat": 0.5,
+        "protein": 8.67
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16028"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 12.0
+      },
+      "id": "usda-sr28:16042",
+      "name": "Beans, pinto, mature seeds, raw",
+      "nutrition": {
+        "calories": 347.0,
+        "carbs": 62.55,
+        "fat": 1.23,
+        "protein": 21.42
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16042"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 10.6
+      },
+      "id": "usda-sr28:16043",
+      "name": "Beans, pinto, mature seeds, cooked, boiled, without salt",
+      "nutrition": {
+        "calories": 143.0,
+        "carbs": 26.22,
+        "fat": 0.65,
+        "protein": 9.01
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16043"
     },
     {
       "category": "Legumes and Legume Products",
@@ -377,6 +2507,40 @@
       "category": "Legumes and Legume Products",
       "conversion_descriptions": {},
       "conversions": {},
+      "id": "usda-sr28:16057",
+      "name": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+      "nutrition": {
+        "calories": 164.0,
+        "carbs": 27.42,
+        "fat": 2.59,
+        "protein": 8.86
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16057"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:16058",
+      "name": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, solids and liquids",
+      "nutrition": {
+        "calories": 88.0,
+        "carbs": 13.49,
+        "fat": 1.95,
+        "protein": 4.92
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16058"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {},
+      "conversions": {},
       "id": "usda-sr28:16069",
       "name": "Lentils, raw",
       "nutrition": {
@@ -389,6 +2553,191 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "16069"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 12.3
+      },
+      "id": "usda-sr28:16070",
+      "name": "Lentils, mature seeds, cooked, boiled, without salt",
+      "nutrition": {
+        "calories": 116.0,
+        "carbs": 20.13,
+        "fat": 0.38,
+        "protein": 9.02
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16070"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:16098",
+      "name": "Peanut butter, smooth style, with salt",
+      "nutrition": {
+        "calories": 598.0,
+        "carbs": 22.31,
+        "fat": 51.36,
+        "protein": 22.21
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16098"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 16.0,
+        "tsp": 5.3
+      },
+      "id": "usda-sr28:16123",
+      "name": "Soy sauce made from soy and wheat (shoyu)",
+      "nutrition": {
+        "calories": 53.0,
+        "carbs": 4.93,
+        "fat": 0.57,
+        "protein": 8.14
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16123"
+    },
+    {
+      "category": "Legumes and Legume Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:16426",
+      "name": "Tofu, raw, firm, prepared with calcium sulfate",
+      "nutrition": {
+        "calories": 144.0,
+        "carbs": 2.78,
+        "fat": 8.72,
+        "protein": 17.27
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "16426"
+    },
+    {
+      "category": "Baked Products",
+      "conversion_descriptions": {
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tsp": 4.6
+      },
+      "id": "usda-sr28:18370",
+      "name": "Leavening agents, baking powder, double-acting, straight phosphate",
+      "nutrition": {
+        "calories": 51.0,
+        "carbs": 24.1,
+        "fat": 0.0,
+        "protein": 0.1
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "18370"
+    },
+    {
+      "category": "Baked Products",
+      "conversion_descriptions": {
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tsp": 4.6
+      },
+      "id": "usda-sr28:18372",
+      "name": "Leavening agents, baking soda",
+      "nutrition": {
+        "calories": 0.0,
+        "carbs": 0.0,
+        "fat": 0.0,
+        "protein": 0.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "18372"
+    },
+    {
+      "category": "Baked Products",
+      "conversion_descriptions": {
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tsp": 3.0
+      },
+      "id": "usda-sr28:18373",
+      "name": "Leavening agents, cream of tartar",
+      "nutrition": {
+        "calories": 258.0,
+        "carbs": 61.5,
+        "fat": 0.0,
+        "protein": 0.0
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "18373"
+    },
+    {
+      "category": "Baked Products",
+      "conversion_descriptions": {
+        "tbsp": "tbsp",
+        "tsp": "tsp"
+      },
+      "conversions": {
+        "tbsp": 12.0,
+        "tsp": 4.0
+      },
+      "id": "usda-sr28:18375",
+      "name": "Leavening agents, yeast, baker's, active dry",
+      "nutrition": {
+        "calories": 325.0,
+        "carbs": 41.22,
+        "fat": 7.61,
+        "protein": 40.44
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "18375"
+    },
+    {
+      "category": "Sweets",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 5.4
+      },
+      "id": "usda-sr28:19165",
+      "name": "Cocoa, dry powder, unsweetened",
+      "nutrition": {
+        "calories": 228.0,
+        "carbs": 57.9,
+        "fat": 13.7,
+        "protein": 19.6
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "19165"
     },
     {
       "category": "Sweets",
@@ -415,6 +2764,23 @@
       "category": "Sweets",
       "conversion_descriptions": {},
       "conversions": {},
+      "id": "usda-sr28:19334",
+      "name": "Sugars, brown",
+      "nutrition": {
+        "calories": 380.0,
+        "carbs": 98.09,
+        "fat": 0.0,
+        "protein": 0.12
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "19334"
+    },
+    {
+      "category": "Sweets",
+      "conversion_descriptions": {},
+      "conversions": {},
       "id": "usda-sr28:19335",
       "name": "Sugars, granulated",
       "nutrition": {
@@ -427,6 +2793,180 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "19335"
+    },
+    {
+      "category": "Sweets",
+      "conversion_descriptions": {
+        "tbsp": "tbsp"
+      },
+      "conversions": {
+        "tbsp": 20.0
+      },
+      "id": "usda-sr28:19353",
+      "name": "Syrups, maple",
+      "nutrition": {
+        "calories": 260.0,
+        "carbs": 67.04,
+        "fat": 0.06,
+        "protein": 0.04
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "19353"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20004",
+      "name": "Barley, hulled",
+      "nutrition": {
+        "calories": 354.0,
+        "carbs": 73.48,
+        "fat": 2.3,
+        "protein": 12.48
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20004"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20005",
+      "name": "Barley, pearled, raw",
+      "nutrition": {
+        "calories": 352.0,
+        "carbs": 77.72,
+        "fat": 1.16,
+        "protein": 9.91
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20005"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20008",
+      "name": "Buckwheat",
+      "nutrition": {
+        "calories": 343.0,
+        "carbs": 71.5,
+        "fat": 3.4,
+        "protein": 13.25
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20008"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20012",
+      "name": "Bulgur, dry",
+      "nutrition": {
+        "calories": 342.0,
+        "carbs": 75.87,
+        "fat": 1.33,
+        "protein": 12.29
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20012"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20020",
+      "name": "Cornmeal, whole-grain, yellow",
+      "nutrition": {
+        "calories": 362.0,
+        "carbs": 76.89,
+        "fat": 3.59,
+        "protein": 8.12
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20020"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20027",
+      "name": "Cornstarch",
+      "nutrition": {
+        "calories": 381.0,
+        "carbs": 91.27,
+        "fat": 0.05,
+        "protein": 0.26
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20027"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20028",
+      "name": "Couscous, dry",
+      "nutrition": {
+        "calories": 376.0,
+        "carbs": 77.43,
+        "fat": 0.64,
+        "protein": 12.76
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20028"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20035",
+      "name": "Quinoa, uncooked",
+      "nutrition": {
+        "calories": 368.0,
+        "carbs": 64.16,
+        "fat": 6.07,
+        "protein": 14.12
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20035"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20036",
+      "name": "Rice, brown, long-grain, raw",
+      "nutrition": {
+        "calories": 367.0,
+        "carbs": 76.25,
+        "fat": 3.2,
+        "protein": 7.54
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20036"
     },
     {
       "category": "Cereal Grains and Pasta",
@@ -466,6 +3006,40 @@
       "category": "Cereal Grains and Pasta",
       "conversion_descriptions": {},
       "conversions": {},
+      "id": "usda-sr28:20061",
+      "name": "Rice flour, white, unenriched",
+      "nutrition": {
+        "calories": 366.0,
+        "carbs": 80.13,
+        "fat": 1.42,
+        "protein": 5.95
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20061"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20080",
+      "name": "Wheat flour, whole-grain",
+      "nutrition": {
+        "calories": 340.0,
+        "carbs": 71.97,
+        "fat": 2.5,
+        "protein": 13.21
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20080"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
       "id": "usda-sr28:20081",
       "name": "Wheat flour, white, all-purpose, enriched, bleached",
       "nutrition": {
@@ -478,6 +3052,125 @@
       "reference_unit": "g",
       "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
       "source_id": "20081"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20083",
+      "name": "Wheat flour, white, bread, enriched",
+      "nutrition": {
+        "calories": 361.0,
+        "carbs": 72.53,
+        "fat": 1.66,
+        "protein": 11.98
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20083"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20088",
+      "name": "Wild rice, raw",
+      "nutrition": {
+        "calories": 357.0,
+        "carbs": 74.9,
+        "fat": 1.08,
+        "protein": 14.73
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20088"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20109",
+      "name": "Noodles, egg, dry, enriched",
+      "nutrition": {
+        "calories": 384.0,
+        "carbs": 71.27,
+        "fat": 4.44,
+        "protein": 14.16
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20109"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20120",
+      "name": "Pasta, dry, enriched",
+      "nutrition": {
+        "calories": 371.0,
+        "carbs": 74.67,
+        "fat": 1.51,
+        "protein": 13.04
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20120"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20124",
+      "name": "Pasta, whole-wheat, dry",
+      "nutrition": {
+        "calories": 352.0,
+        "carbs": 73.37,
+        "fat": 2.93,
+        "protein": 13.87
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20124"
+    },
+    {
+      "category": "Cereal Grains and Pasta",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:20133",
+      "name": "Rice noodles, dry",
+      "nutrition": {
+        "calories": 364.0,
+        "carbs": 80.18,
+        "fat": 0.56,
+        "protein": 5.95
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "20133"
+    },
+    {
+      "category": "Beef Products",
+      "conversion_descriptions": {},
+      "conversions": {},
+      "id": "usda-sr28:23567",
+      "name": "Beef, ground, 85% lean meat / 15% fat, raw",
+      "nutrition": {
+        "calories": 215.0,
+        "carbs": 0.0,
+        "fat": 15.0,
+        "protein": 18.59
+      },
+      "reference_amount": 100,
+      "reference_unit": "g",
+      "source": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+      "source_id": "23567"
     }
   ],
   "provenance": {
@@ -488,15 +3181,15 @@
         "upstream_sha256": "2aa0ebcaecf5c4e65a1971649a421670f4bb59e97deba785b32f081c4ae2b7b9"
       },
       "FOOD_DES.txt": {
-        "subset_sha256": "bdf3921af84a22c66e808bbf2d9ca6cdc6eb1b802373c71cc8b27459bd9cf35a",
+        "subset_sha256": "270ce644904614d07286065f6f0b50c69e9e807092c251c7e5e4b675c8067dd2",
         "upstream_sha256": "fcaf31a65799170ce74d005de2129ea723dc9bf879768d4b78c9a2579851f319"
       },
       "NUT_DATA.txt": {
-        "subset_sha256": "2fd676f8ab3788847a966baffd0326d7b0c10704dca784891a76d22d6db5b81e",
+        "subset_sha256": "a088c29a57bb4ce172881e279235834a55a5caf444f79fc995ee9862cfb1507d",
         "upstream_sha256": "bfeac4e6c6c6d3f3389c76e70d0140946933d9ef9701939092b5f07604af672f"
       },
       "WEIGHT.txt": {
-        "subset_sha256": "f10634a006416bdbfa86c6fbd98e83db4c2b47a0ac3a8406127e1edd84142fd6",
+        "subset_sha256": "a2cf74cbb1bac7d27379c979839cd30b842a817262595b80103b756d278672ad",
         "upstream_sha256": "c13c6949f22949fd5c4c5949ea3c9a752bfa18c46b54c7e67602c2261a6937f6"
       }
     },

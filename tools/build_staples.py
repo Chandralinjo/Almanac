@@ -53,7 +53,7 @@ def curate(source=ROOT / 'data/usda'):
                       source=provenance['dataset'], source_id=ndb)
         Ingredient(record['id'], record['name'], Nutrition(**nutrition), conversions=conversions)
         result.append(record)
-    return dict(schema_version=1, catalog_version='usda-sr28-staples-1', provenance=provenance, foods=result)
+    return dict(schema_version=1, catalog_version='usda-sr28-staples-2', provenance=provenance, foods=result)
 
 
 def write_database(catalog, destination):

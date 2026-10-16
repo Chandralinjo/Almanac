@@ -6,15 +6,15 @@
   "files": {
     "FOOD_DES.txt": {
       "upstream_sha256": "fcaf31a65799170ce74d005de2129ea723dc9bf879768d4b78c9a2579851f319",
-      "subset_sha256": "bdf3921af84a22c66e808bbf2d9ca6cdc6eb1b802373c71cc8b27459bd9cf35a"
+      "subset_sha256": "270ce644904614d07286065f6f0b50c69e9e807092c251c7e5e4b675c8067dd2"
     },
     "NUT_DATA.txt": {
       "upstream_sha256": "bfeac4e6c6c6d3f3389c76e70d0140946933d9ef9701939092b5f07604af672f",
-      "subset_sha256": "2fd676f8ab3788847a966baffd0326d7b0c10704dca784891a76d22d6db5b81e"
+      "subset_sha256": "a088c29a57bb4ce172881e279235834a55a5caf444f79fc995ee9862cfb1507d"
     },
     "WEIGHT.txt": {
       "upstream_sha256": "c13c6949f22949fd5c4c5949ea3c9a752bfa18c46b54c7e67602c2261a6937f6",
-      "subset_sha256": "f10634a006416bdbfa86c6fbd98e83db4c2b47a0ac3a8406127e1edd84142fd6"
+      "subset_sha256": "a2cf74cbb1bac7d27379c979839cd30b842a817262595b80103b756d278672ad"
     },
     "FD_GROUP.txt": {
       "upstream_sha256": "2aa0ebcaecf5c4e65a1971649a421670f4bb59e97deba785b32f081c4ae2b7b9",

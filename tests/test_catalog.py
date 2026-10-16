@@ -12,13 +12,24 @@ from tools.build_staples import ROOT, build, curate
 class CatalogTests(unittest.TestCase):
     def test_catalog_validates_and_has_real_portions(self):
         ingredients = load_catalog(ROOT / 'data/staples.json')
-        self.assertEqual(len(ingredients), 26)
+        self.assertEqual(len(ingredients), 169)
         egg = ingredients['usda-sr28:01123']
         self.assertEqual(egg.nutrition.calories, 143)
         self.assertEqual(egg.factor('piece'), 50)
         self.assertEqual(food_nutrition(egg, 2, 'piece').calories.value, 143)
         self.assertEqual(ingredients['usda-sr28:04053'].factor('tbsp'), 13.5)
         self.assertEqual(ingredients['usda-sr28:09003'].factor('piece'), 182)
+
+    def test_common_cooking_staples_are_bundled(self):
+        ingredients = load_catalog(ROOT / 'data/staples.json')
+        # Representative coverage across the expanded cooking categories.
+        for ndb in ('05062', '16426', '16014', '20120', '20035', '20080',
+                    '04582', '11216', '11260', '11821', '01053', '02010',
+                    '18372', '19165', '12118', '16123'):
+            with self.subTest(ndb=ndb):
+                self.assertIn('usda-sr28:' + ndb, ingredients)
+        self.assertNotEqual(ingredients['usda-sr28:16014'].nutrition,
+                            ingredients['usda-sr28:16015'].nutrition)
 
     def test_reproducible_seed_and_setup_search_contract(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -31,7 +42,7 @@ class CatalogTests(unittest.TestCase):
             with sqlite3.connect(database) as conn:
                 self.assertEqual(conn.execute('PRAGMA integrity_check').fetchone()[0], 'ok')
                 self.assertEqual(conn.execute('PRAGMA foreign_key_check').fetchall(), [])
-                self.assertEqual(conn.execute('SELECT count(*) FROM foods').fetchone()[0], 26)
+                self.assertEqual(conn.execute('SELECT count(*) FROM foods').fetchone()[0], 169)
                 self.assertEqual(conn.execute('SELECT name,category,calories,protein,carbs,fat FROM foods WHERE name LIKE ?', ('%Milk, whole%',)).fetchone()[2], 61)
                 self.assertEqual(conn.execute('SELECT count(*) FROM foods WHERE source_id IS NULL').fetchone()[0], 0)
             before = database.read_bytes()

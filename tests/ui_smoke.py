@@ -36,7 +36,7 @@ class IngredientScreens(unittest.TestCase):
         Clock.tick()
 
     def test_browse_search_detail_and_seed_correction(self):
-        self.assertEqual(len(self.app.results.children),26)
+        self.assertEqual(len(self.app.results.children),169)
         self.app.search.text = 'egG, WHOle'
         self.assertEqual(len(self.app.results.children),1)
         self.app.results.children[0].dispatch('on_release')
@@ -119,12 +119,12 @@ class IngredientScreens(unittest.TestCase):
             self.app.root = self.app.build()
             Window.add_widget(self.app.root)
             self.assertEqual(self.app.store.path, directory / 'almanac.db')
-            self.assertEqual(len(self.app.results.children), 26)
+            self.assertEqual(len(self.app.results.children), 169)
             self.assertEqual(self.app.store.get('usda-sr28:01123')['nutrition']['protein'], 44)
             self.app.store.close()
             self.app.store = None
             self.app.open_store()
-            self.assertEqual(len(self.app.store.list()), 26)
+            self.assertEqual(len(self.app.store.list()), 169)
 
 
 if __name__=='__main__':

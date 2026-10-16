@@ -1,8 +1,10 @@
 # USDA staple catalog
 
-26 generic staple foods from USDA National Nutrient Database for Standard
+169 generic staple foods from USDA National Nutrient Database for Standard
 Reference, Release 28 (2015). This is the older SR28 release, not a current
-FoodData Central export. It provides a small, fixed, reproducible starting set.
+FoodData Central export. It provides a broad, fixed, reproducible starting set covering dairy and eggs,
+herbs and spices, oils and condiments, fruit and vegetables, meat and seafood,
+legumes, nuts and seeds, baking ingredients, grains, and pasta.
 
 Source documentation: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/sr28_doc.pdf
 Official release archive: https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/mafcl-site-pages/sr11-sr28/
@@ -32,13 +34,13 @@ SQLite file bytes can differ across SQLite versions.
 The four nutrient IDs are 208 (energy, kcal), 203 (protein, g), 205 (carbohydrate
 by difference, g), and 204 (total lipid, g), all per 100 g edible food.
 Missing source nutrients remain null, never zero. No calorie/macronutrient
-reconciliation or density guesses are applied. Raw and cooked rice are distinct
+reconciliation or density guesses are applied. Raw and cooked rice, beans, chickpeas, and lentils are distinct
 records. Original USDA descriptions retain preparation details.
 
 Conversions use only selected USDA household weights: grams divided by the
 source household amount. A `piece` is specifically a large raw egg (50 g), medium
-apple (182 g), medium banana (118 g), or medium carrot (61 g). Spoon weights are
-food-specific; pepper uses ground pepper, not whole peppercorns. These are source
+apple (182 g), medium banana (118 g), or medium carrot (61 g). Additional spoon measures use only literal single `tsp` or `tbsp` USDA weights.
+Spoon weights are food-specific; pepper uses ground pepper, not whole peppercorns. These are source
 estimates, not universal sizes. Descriptions are preserved in JSON and SQLite.
 There is no automatic mass/volume conversion or inferred teaspoon-to-tablespoon
 conversion. Add an explicitly documented mapping when another measure is needed.
@@ -47,5 +49,5 @@ The SQLite file is a reproducible M1 seed asset and legacy-migration fixture.
 M2 packages `staples.json`, validates it, and reconciles it into a distinct writable
 `almanac.db` inside Kivy's persistent app directory. Personal overrides/custom
 foods are separate from seed baselines. The earlier phone `foods.db` is imported
-once and retained untouched; upgrades now expose the 26-food catalog without
+once and retained untouched; upgrades now expose the 169-food catalog without
 clearing app data. See `docs/M2.md` for the transaction and override rules.

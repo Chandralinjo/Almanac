@@ -2,8 +2,9 @@
 
 Offline Android recipe and nutrient tracker using Python/Kivy. M2 now provides
 ingredient browse/search/detail/add/edit screens, explicit reference units and
-conversions, reversible archive, and transactional persistent storage. The 26-food
+conversions, reversible archive, and transactional persistent storage. The 169-food
 USDA catalog initializes offline and upgrades without replacing personal edits.
+
 
 From the repository root (Python 3.9+; tested with Python 3.12):
 

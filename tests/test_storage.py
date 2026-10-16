@@ -47,12 +47,12 @@ class StoreFixture(unittest.TestCase):
 class StorageTests(StoreFixture):
     def test_offline_initialize_reopen_and_domain_bridge(self):
         store = self.open()
-        self.assertEqual(len(store.list()), 26)
+        self.assertEqual(len(store.list()), 169)
         self.assertEqual(store.conn.execute('PRAGMA foreign_keys').fetchone()[0], 1)
         self.assertEqual(store.conn.execute('PRAGMA user_version').fetchone()[0], SCHEMA_VERSION)
         self.assertEqual(food_nutrition(store.ingredient('usda-sr28:01123'), 2, 'piece').calories.value, 143)
         store.close()
-        self.assertEqual(len(self.open().list()), 26)
+        self.assertEqual(len(self.open().list()), 169)
 
     def test_custom_edits_archive_and_unknown_survive_reopen(self):
         store = self.open()
@@ -60,8 +60,8 @@ class StorageTests(StoreFixture):
         record['name'] = 'Updated food'
         store.save(record)
         store.archive(record['id'])
-        self.assertEqual(len(store.list()), 26)
-        self.assertEqual(len(store.list(include_archived=True)), 27)
+        self.assertEqual(len(store.list()), 169)
+        self.assertEqual(len(store.list(include_archived=True)), 170)
         store.close()
         store = self.open()
         saved = store.get(record['id'])
@@ -147,7 +147,7 @@ class StorageTests(StoreFixture):
         upgraded = deepcopy(seed)
         upgraded['foods'].pop(0)
         store = self.open(upgraded)
-        self.assertEqual(len(store.list()), 26)
+        self.assertEqual(len(store.list()), 169)
         self.assertFalse(store.get(id)['catalog_available'])
 
     def test_failure_at_each_initialization_checkpoint_rolls_back(self):
@@ -161,7 +161,7 @@ class StorageTests(StoreFixture):
                 with self.assertRaises(RuntimeError):
                     self.open(checkpoint=fail)
                 store = self.open()
-                self.assertEqual(len(store.list()), 26)
+                self.assertEqual(len(store.list()), 169)
                 store.close()
 
     def test_abrupt_process_death_retries_initialization(self):
@@ -179,7 +179,7 @@ IngredientStore(sys.argv[1], seed, checkpoint=stop)
                 self.assertEqual(result.returncode, 77)
                 store = IngredientStore(path, catalog())
                 self.stores.append(store)
-                self.assertEqual(len(store.list()), 26)
+                self.assertEqual(len(store.list()), 169)
                 self.assertEqual(store.conn.execute('PRAGMA integrity_check').fetchone()[0], 'ok')
 
     def test_interrupted_populated_upgrade_keeps_old_data_and_retries(self):
@@ -273,7 +273,7 @@ IngredientStore(sys.argv[1], seed, checkpoint=stop)
                 (2,'Eggs (Whole, Raw)','Dairy & Eggs',143,42,.7,9.5),
                 (3,'My custom snack','Personal',100,None,2,3)])
         store = self.open(legacy_path=legacy)
-        self.assertEqual(len(store.list()),27)
+        self.assertEqual(len(store.list()),170)
         self.assertFalse(store.get('usda-sr28:01077')['modified'])
         self.assertEqual(store.get('usda-sr28:01123')['nutrition']['protein'],42)
         self.assertIsNone(store.get('legacy:3')['nutrition']['protein'])
@@ -340,7 +340,7 @@ IngredientStore(sys.argv[1],json.load(open(sys.argv[2])),checkpoint=stop)
         with sqlite3.connect(path) as conn:
             conn.execute('UPDATE foods SET calories=50 WHERE id=2')
         store=self.open(legacy_path=path)
-        self.assertEqual(len(store.list()),28)
+        self.assertEqual(len(store.list()),171)
         self.assertEqual(store.get('legacy:1')['nutrition']['calories'],100)
 
     def test_failed_schema_migration_preserves_version_and_records(self):

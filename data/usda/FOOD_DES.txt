@@ -1,26 +1,169 @@
 ~01001~^~0100~^~Butter, salted~^~BUTTER,WITH SALT~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
 ~01009~^~0100~^~Cheese, cheddar~^~CHEESE,CHEDDAR~^~~^~~^~Y~^~~^0^~~^^^^
+~01012~^~0100~^~Cheese, cottage, creamed, large or small curd~^~CHEESE,COTTAGE,CRMD,LRG OR SML CURD~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01017~^~0100~^~Cheese, cream~^~CHEESE,CREAM~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01019~^~0100~^~Cheese, feta~^~CHEESE,FETA~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01026~^~0100~^~Cheese, mozzarella, whole milk~^~CHEESE,MOZZARELLA,WHL MILK~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01033~^~0100~^~Cheese, parmesan, hard~^~CHEESE,PARMESAN,HARD~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01036~^~0100~^~Cheese, ricotta, whole milk~^~CHEESE,RICOTTA,WHOLE MILK~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01049~^~0100~^~Cream, fluid, half and half~^~CREAM,FLUID,HALF AND HALF~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01053~^~0100~^~Cream, fluid, heavy whipping~^~CREAM,FLUID,HVY WHIPPING~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01056~^~0100~^~Cream, sour, cultured~^~CREAM,SOUR,CULTURED~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
 ~01077~^~0100~^~Milk, whole, 3.25% milkfat, with added vitamin D~^~MILK,WHL,3.25% MILKFAT,W/ ADDED VITAMIN D~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01085~^~0100~^~Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)~^~MILK,NONFAT,FLUID,W/ ADDED VIT A & VIT D (FAT FREE OR SKIM)~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
 ~01116~^~0100~^~Yogurt, plain, whole milk, 8 grams protein per 8 ounce~^~YOGURT,PLN,WHL MILK,8 GRAMS PROT PER 8 OZ~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
 ~01123~^~0100~^~Egg, whole, raw, fresh~^~EGG,WHL,RAW,FRSH~^~~^~~^~Y~^~Shell~^12^~~^6.25^4.36^9.02^3.68
+~01124~^~0100~^~Egg, white, raw, fresh~^~EGG,WHITE,RAW,FRESH~^~~^~~^~Y~^~~^0^~~^6.25^4.36^9.02^3.68
+~01125~^~0100~^~Egg, yolk, raw, fresh~^~EGG,YOLK,RAW,FRSH~^~~^~~^~Y~^~~^0^~~^6.25^4.36^9.02^3.68
+~01230~^~0100~^~Milk, buttermilk, fluid, whole~^~MILK,BTTRMLK,FLUID,WHL~^~~^~~^~Y~^~~^0^~~^^^^
+~01293~^~0100~^~Yogurt, Greek, plain, whole milk~^~YOGURT,GREEK,PLN,WHL MILK~^~~^~~^~Y~^~~^0^~~^6.25^^^
+~02001~^~0200~^~Spices, allspice, ground~^~ALLSPICE,GROUND~^~~^~~^~~^~~^0^~Pimenta dioica~^6.25^3.36^8.37^2.35
+~02003~^~0200~^~Spices, basil, dried~^~SPICES,BASIL,DRIED~^~~^~~^~Y~^~~^0^~Ocimum basilicum~^6.25^2.44^8.37^3.00
+~02004~^~0200~^~Spices, bay leaf~^~SPICES,BAY LEAF~^~~^~~^~~^~~^0^~Laurus nobilis~^6.25^2.44^8.37^3.00
+~02006~^~0200~^~Spices, cardamom~^~SPICES,CARDAMOM~^~~^~~^~~^~~^0^~Elettaria cardamomum~^6.25^3.36^8.37^3.20
+~02009~^~0200~^~Spices, chili powder~^~CHILI POWDER~^~~^~~^~Y~^~~^0^~~^6.25^3.23^8.37^2.39
+~02010~^~0200~^~Spices, cinnamon, ground~^~CINNAMON,GROUND~^~Cassia~^~~^~Y~^~~^0^~Cinnamomum aromaticum~^6.25^1.82^8.37^2.85
+~02011~^~0200~^~Spices, cloves, ground~^~CLOVES,GROUND~^~~^~~^~Y~^~~^0^~Syzygium aromaticum~^6.25^1.82^8.37^2.35
+~02013~^~0200~^~Spices, coriander seed~^~CORIANDER SEED~^~~^~~^~~^~~^0^~Coriandrum sativum~^6.25^3.36^8.37^1.95
+~02014~^~0200~^~Spices, cumin seed~^~CUMIN SEED~^~~^~~^~Y~^~~^0^~Cuminum cyminum~^6.25^3.36^8.37^2.90
+~02015~^~0200~^~Spices, curry powder~^~CURRY POWDER~^~~^~~^~Y~^~~^0^~~^6.18^3.12^8.37^2.92
+~02017~^~0200~^~Spices, dill weed, dried~^~DILL WEED,DRIED~^~~^~~^~~^~~^0^~Anethum graveolens~^6.25^2.44^8.37^3.00
+~02018~^~0200~^~Spices, fennel seed~^~FENNEL SEED~^~~^~~^~~^~~^0^~Foeniculum vulgare~^6.25^3.36^8.37^3.20
+~02020~^~0200~^~Spices, garlic powder~^~GARLIC POWDER~^~~^~~^~Y~^~~^0^~Allium sativum~^6.25^2.78^8.37^3.84
+~02021~^~0200~^~Spices, ginger, ground~^~GINGER,GROUND~^~~^~~^~Y~^~~^0^~Zingiber officinale~^6.25^2.78^8.37^3.84
+~02025~^~0200~^~Spices, nutmeg, ground~^~NUTMEG,GROUND~^~~^~~^~Y~^~~^0^~Myristica fragrans~^5.30^3.47^8.37^4.07
+~02026~^~0200~^~Spices, onion powder~^~ONION POWDER~^~~^~~^~Y~^~~^0^~Allium cepa~^6.25^2.78^8.37^3.84
+~02027~^~0200~^~Spices, oregano, dried~^~SPICES,OREGANO,DRIED~^~~^~~^~Y~^~~^0^~Origanum vulgare~^6.25^2.44^8.37^3.00
+~02028~^~0200~^~Spices, paprika~^~PAPRIKA~^~~^~~^~Y~^~~^0^~Capsicum annuum~^6.25^3.36^8.37^2.35
 ~02030~^~0200~^~Spices, pepper, black~^~PEPPER,BLACK~^~~^~~^~Y~^~~^0^~Piper nigrum~^5.35^1.83^8.37^3.20
+~02031~^~0200~^~Spices, pepper, red or cayenne~^~PEPPER,RED OR CAYENNE~^~~^~~^~Y~^~~^0^~Capsicum frutescens or Capsicum annuum~^6.25^3.36^8.37^2.35
+~02036~^~0200~^~Spices, rosemary, dried~^~ROSEMARY,DRIED~^~~^~~^~~^~~^0^~Rosmarinus officinalis~^6.25^2.44^8.37^3.00
+~02038~^~0200~^~Spices, sage, ground~^~SAGE,GROUND~^~~^~~^~Y~^~~^0^~Salvia officinalis~^6.25^2.44^8.37^3.00
+~02042~^~0200~^~Spices, thyme, dried~^~SPICES,THYME,DRIED~^~~^~~^~Y~^~~^0^~Thymus vulgaris~^6.25^2.44^8.37^3.00
+~02043~^~0200~^~Spices, turmeric, ground~^~TURMERIC,GROUND~^~~^~~^~Y~^~~^0^~Curcuma longa L.~^6.25^2.78^8.37^3.84
+~02044~^~0200~^~Basil, fresh~^~BASIL,FRESH~^~~^~~^~Y~^~Tough stems, flower heads and trimmings~^36^~Ocimum basilicum~^6.25^2.44^8.37^3.57
+~02045~^~0200~^~Dill weed, fresh~^~DILL WEED,FRSH~^~~^~~^~~^~Tough stems and trimmings~^41^~Anethum graveolens~^6.25^2.44^8.37^3.57
+~02046~^~0200~^~Mustard, prepared, yellow~^~MUSTARD,PREPARED,YELLOW~^~~^~~^~Y~^~~^0^~~^6.25^3.47^8.37^3.34
 ~02047~^~0200~^~Salt, table~^~SALT,TABLE~^~~^~~^~Y~^~~^0^~~^0.00^^^
+~02048~^~0200~^~Vinegar, cider~^~VINEGAR,CIDER~^~~^~~^~Y~^~~^0^~~^0.00^^^
+~02050~^~0200~^~Vanilla extract~^~VANILLA EXTRACT~^~~^~~^~~^~~^0^~~^6.25^2.44^8.37^3.90
+~02053~^~0200~^~Vinegar, distilled~^~VINEGAR,DISTILLED~^~~^~~^~Y~^~~^0^~~^^^^
+~02063~^~0200~^~Rosemary, fresh~^~ROSEMARY,FRESH~^~~^~~^~~^~Stems~^35^~Rosmarinus officinalis~^6.25^2.44^8.37^3.57
+~02068~^~0200~^~Vinegar, red wine~^~VINEGAR,RED WINE~^~~^~~^~~^~~^0^~~^6.25^^^
+~02069~^~0200~^~Vinegar, balsamic~^~VINEGAR,BALSAMIC~^~~^~~^~~^~~^0^~~^^^^
+~04025~^~0400~^~Salad dressing, mayonnaise, regular~^~SALAD DRSNG,MAYO,REG~^~~^~~^~Y~^~~^0^~~^^^^
+~04042~^~0400~^~Oil, peanut, salad or cooking~^~OIL,PNUT,SALAD OR COOKING~^~~^~~^~Y~^~~^0^~~^0.00^^8.84^
+~04047~^~0400~^~Oil, coconut~^~OIL,COCNT~^~~^~~^~Y~^~~^0^~~^^^^
 ~04053~^~0400~^~Oil, olive, salad or cooking~^~OIL,OLIVE,SALAD OR COOKING~^~~^~~^~Y~^~~^0^~~^0.00^^8.84^
+~04058~^~0400~^~Oil, sesame, salad or cooking~^~OIL,SESAME,SALAD OR COOKING~^~~^~~^~Y~^~~^0^~~^0.00^^8.84^
+~04582~^~0400~^~Oil, canola~^~OIL,CANOLA~^~low erucic acid rapeseed oil~^~~^~Y~^~~^0^~~^0.00^^8.84^
+~05062~^~0500~^~Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw~^~CHICKEN,BROILER OR FRYERS,BRST,SKINLESS,BNLESS,MEAT ONLY,RAW~^~~^~~^~Y~^~~^0^~~^6.25^4.27^9.02^3.87
 ~08120~^~0800~^~Cereals, oats, regular and quick, not fortified, dry~^~CEREALS,OATS,REG & QUICK,NOT FORT,DRY~^~oatmeal, old-fashioned oats, rolled oats~^~~^~Y~^~~^0^~~^5.83^3.46^8.37^4.12
 ~09003~^~0900~^~Apples, raw, with skin~^~APPLES,RAW,WITH SKIN~^~Includes USDA commodity food A343~^~~^~Y~^~Core and stem~^10^~Malus domestica~^6.25^3.36^8.37^3.60
+~09037~^~0900~^~Avocados, raw, all commercial varieties~^~AVOCADOS,RAW,ALL COMM VAR~^~~^~~^~Y~^~Seed and skin~^26^~Persea americana~^6.25^3.36^8.37^3.60
 ~09040~^~0900~^~Bananas, raw~^~BANANAS,RAW~^~~^~~^~Y~^~Skin~^36^~Musa acuminata Colla~^6.25^3.36^8.37^3.60
+~09050~^~0900~^~Blueberries, raw~^~BLUEBERRIES,RAW~^~~^~~^~Y~^~Stems and green or spoiled berries~^5^~Vaccinium spp.~^6.25^3.36^8.37^3.60
+~09148~^~0900~^~Kiwifruit, green, raw~^~KIWIFRUIT,GRN,RAW~^~Chinese gooseberry~^~~^~Y~^~Skin~^24^~Actinidia deliciosa~^6.25^3.36^8.37^3.60
+~09150~^~0900~^~Lemons, raw, without peel~^~LEMONS,RAW,WITHOUT PEEL~^~Includes USDA commodity food A415~^~~^~Y~^~45% peel, 2% seeds~^47^~Citrus limon~^6.25^3.36^8.37^2.48
+~09152~^~0900~^~Lemon juice, raw~^~LEMON JUICE,RAW~^~~^~~^~Y~^~~^0^~~^6.25^3.36^8.37^2.70
+~09159~^~0900~^~Limes, raw~^~LIMES,RAW~^~~^~~^~Y~^~Peel and seeds~^16^~Citrus latifolia~^6.25^3.36^8.37^2.48
+~09160~^~0900~^~Lime juice, raw~^~LIME JUICE,RAW~^~~^~~^~Y~^~~^0^~~^6.25^3.36^8.37^2.70
+~09200~^~0900~^~Oranges, raw, all commercial varieties~^~ORANGES,RAW,ALL COMM VAR~^~~^~~^~Y~^~Peel and seeds~^27^~Citrus sinensis~^6.25^3.36^8.37^3.60
+~09236~^~0900~^~Peaches, yellow, raw~^~PEACHES,YEL,RAW~^~~^~~^~Y~^~Pit~^4^~Prunus persica~^6.25^3.36^8.37^3.60
+~09252~^~0900~^~Pears, raw~^~PEARS,RAW~^~Includes USDA commodity food A435~^~~^~Y~^~Stem, core and seeds~^10^~Pyrus communis~^6.25^3.36^8.37^3.60
+~09298~^~0900~^~Raisins, seedless~^~RAISINS,SEEDLESS~^~~^~~^~Y~^~~^0^~Vitis vinifera~^6.25^3.36^8.37^3.60
+~09316~^~0900~^~Strawberries, raw~^~STRAWBERRIES,RAW~^~~^~~^~Y~^~Caps and stems~^6^~Fragaria X ananassa~^6.25^3.36^8.37^3.60
+~10060~^~1000~^~Pork, fresh, loin, tenderloin, separable lean only, raw~^~PORK  FRSH  LOIN  TENDERLOIN   LN ONLY  RAW~^~Pork tenderloin, URMIS #3358~^~~^~Y~^~Bone, 0%, Connective tissue, 3%, Separable fat, 2%~^5^~~^6.25^4.27^9.02^3.87
+~11011~^~1100~^~Asparagus, raw~^~ASPARAGUS,RAW~^~~^~~^~Y~^~Butt ends~^47^~Asparagus officinalis~^6.25^2.44^8.37^3.57
+~11043~^~1100~^~Mung beans, mature seeds, sprouted, raw~^~MUNG BNS,MATURE SEEDS,SPROUTED,RAW~^~~^~~^~Y~^~~^0^~Vigna radiata~^6.25^2.44^8.37^3.57
+~11052~^~1100~^~Beans, snap, green, raw~^~BEANS,SNAP,GREEN,RAW~^~~^~~^~Y~^~Ends, strings, trimmings~^12^~Phaseolus vulgaris~^6.25^2.44^8.37^3.57
 ~11090~^~1100~^~Broccoli, raw~^~BROCCOLI,RAW~^~~^~~^~Y~^~Leaves and tough stalks with trimmings~^39^~Brassica oleracea var. italica~^^2.44^8.37^3.57
+~11109~^~1100~^~Cabbage, raw~^~CABBAGE,RAW~^~~^~~^~Y~^~Outer leaves and core~^20^~Brassica oleracea (Capitata Group)~^6.25^2.44^8.37^3.57
 ~11124~^~1100~^~Carrots, raw~^~CARROTS,RAW~^~Includes USDA commodity food A099~^~~^~Y~^~Crown, tops and scrapings~^11^~Daucus carota~^6.25^2.78^8.37^3.84
+~11135~^~1100~^~Cauliflower, raw~^~CAULIFLOWER,RAW~^~~^~~^~Y~^~Leaf stalks, cores and trimmings~^61^~Brassica oleracea (Botrytis Group)~^6.25^2.44^8.37^3.57
+~11143~^~1100~^~Celery, raw~^~CELERY,RAW~^~~^~~^~Y~^~Roots and trimmings~^11^~Apium graveolens~^^^^
+~11165~^~1100~^~Coriander (cilantro) leaves, raw~^~CORIANDER (CILANTRO) LEAVES,RAW~^~Chinese parsley, raw, Cilantro, raw~^~~^~Y~^~Roots, old and bruised leaves~^15^~Coriandrum sativum~^6.25^2.44^8.37^3.57
+~11167~^~1100~^~Corn, sweet, yellow, raw~^~CORN,SWT,YEL,RAW~^~~^~~^~Y~^~35% husk, silk, trimmings; 29% cob~^64^~Zea mays~^^2.44^8.37^3.57
+~11205~^~1100~^~Cucumber, with peel, raw~^~CUCUMBER,WITH PEEL,RAW~^~~^~~^~Y~^~Ends~^3^~Cucumis sativus~^6.25^2.44^8.37^3.57
+~11209~^~1100~^~Eggplant, raw~^~EGGPLANT,RAW~^~~^~~^~Y~^~Ends, parings and trimmings~^19^~Solanum melongena~^6.25^2.44^8.37^3.57
 ~11215~^~1100~^~Garlic, raw~^~GARLIC,RAW~^~~^~~^~Y~^~Knob and skin~^13^~Allium sativum~^6.25^2.78^8.37^3.84
+~11216~^~1100~^~Ginger root, raw~^~GINGER ROOT,RAW~^~~^~~^~Y~^~Scrapings~^7^~Zingiber officinale~^6.25^2.78^8.37^3.84
+~11233~^~1100~^~Kale, raw~^~KALE,RAW~^~~^~~^~~^~Stem ends, tough stems and tough midrib parts~^28^~Brassica oleracea (Acephala Group)~^6.25^2.44^8.37^3.57
+~11246~^~1100~^~Leeks, (bulb and lower leaf-portion), raw~^~LEEKS,(BULB&LOWER LEAF-PORTION),RAW~^~~^~~^~Y~^~Tops, root end and skin~^56^~Allium ampeloprasum~^6.25^2.78^8.37^3.84
+~11252~^~1100~^~Lettuce, iceberg (includes crisphead types), raw~^~LETTUCE,ICEBERG (INCL CRISPHEAD TYPES),RAW~^~~^~~^~Y~^~Core~^5^~Lactuca sativa var. capitata~^6.25^2.44^8.37^3.57
+~11260~^~1100~^~Mushrooms, white, raw~^~MUSHROOMS,WHITE,RAW~^~~^~~^~Y~^~Trimmings~^3^~Agaricus bisporus~^6.25^2.62^8.37^3.48
 ~11282~^~1100~^~Onions, raw~^~ONIONS,RAW~^~~^~~^~Y~^~Stem ends, sprouts and defects~^10^~Allium cepa~^6.25^2.78^8.37^3.84
+~11291~^~1100~^~Onions, spring or scallions (includes tops and bulb), raw~^~ONIONS,SPRING OR SCALLIONS (INCL TOPS&BULB),RAW~^~~^~~^~Y~^~Rootlets~^4^~Allium cepa or Allium fistulosum~^6.25^2.44^8.37^3.57
+~11297~^~1100~^~Parsley, fresh~^~PARSLEY,FRSH~^~~^~~^~Y~^~Tough stems~^5^~Petroselinum crispum~^6.25^2.44^8.37^3.57
+~11304~^~1100~^~Peas, green, raw~^~PEAS,GREEN,RAW~^~~^~~^~Y~^~Pods and inedible peas~^62^~Pisum sativum~^6.25^3.47^8.37^4.07
+~11333~^~1100~^~Peppers, sweet, green, raw~^~PEPPERS,SWT,GRN,RAW~^~~^~~^~Y~^~Stem ends, seeds and core~^18^~Capsicum annuum~^6.25^2.44^8.37^3.57
 ~11352~^~1100~^~Potatoes, flesh and skin, raw~^~POTATOES,FLESH & SKN,RAW~^~~^~~^~Y~^~Parings and trimmings~^25^~Solanum tuberosum~^6.25^2.78^8.37^4.03
+~11422~^~1100~^~Pumpkin, raw~^~PUMPKIN,RAW~^~~^~~^~Y~^~Seeds, rind and stem~^30^~Cucurbita spp.~^6.25^2.44^8.37^3.57
 ~11457~^~1100~^~Spinach, raw~^~SPINACH,RAW~^~~^~~^~Y~^~Large stems and roots~^28^~Spinacia oleracea~^6.25^2.44^8.37^3.57
+~11477~^~1100~^~Squash, summer, zucchini, includes skin, raw~^~SQUASH,SMMR,ZUCCHINI,INCL SKN,RAW~^~~^~~^~Y~^~Ends~^5^~~^^2.44^8.37^3.57
+~11507~^~1100~^~Sweet potato, raw, unprepared~^~SWEET POTATO,RAW,UNPREP~^~Sweetpotato, Includes USDA commodity food A230~^~~^~Y~^~Parings and trimmings~^28^~Ipomoea batatas~^6.25^2.78^8.37^4.03
 ~11529~^~1100~^~Tomatoes, red, ripe, raw, year round average~^~TOMATOES,RED,RIPE,RAW,YEAR RND AVERAGE~^~Includes USDA commodity food A238, A233~^~~^~Y~^~Core and stem ends~^9^~Solanum lycopersicum~^6.25^2.44^8.37^3.57
+~11546~^~1100~^~Tomato products, canned, paste, without salt added~^~TOMATO PRODUCTS,CND,PASTE,WO/ SALT ADDED~^~~^~~^~Y~^~~^0^~~^6.25^2.44^8.37^3.57
+~11547~^~1100~^~Tomato products, canned, puree, without salt added~^~TOMATO PRODUCTS,CND,PUREE,WO/SALT~^~~^~~^~Y~^~~^0^~~^6.25^2.44^8.37^3.57
+~11821~^~1100~^~Peppers, sweet, red, raw~^~PEPPERS,SWT,RED,RAW~^~~^~~^~Y~^~Stem ends, seed and core~^18^~~^^^^
+~11935~^~1100~^~Catsup~^~Catsup~^~Ketchup~^~~^~Y~^~~^0^~~^6.25^2.44^8.37^3.57
+~11951~^~1100~^~Peppers, sweet, yellow, raw~^~PEPPERS,SWEET,YELLOW,RAW~^~~^~~^~~^~Stem ends, seeds and core~^18^~Capsicum annuum~^6.25^2.44^8.37^3.57
+~12006~^~1200~^~Seeds, chia seeds, dried~^~CHIA SEEDS,DRIED~^~~^~~^~~^~~^0^~Salvia hispanica~^5.30^3.47^8.37^4.07
+~12023~^~1200~^~Seeds, sesame seeds, whole, dried~^~SESAME SEEDS,WHOLE,DRIED~^~~^~~^~Y~^~~^0^~Sesamum indicum~^5.30^3.47^8.37^4.07
+~12036~^~1200~^~Seeds, sunflower seed kernels, dried~^~SUNFLOWER SD KRNLS,DRIED~^~~^~~^~Y~^~Hulls~^46^~Helianthus annuus~^5.30^3.47^8.37^4.07
+~12061~^~1200~^~Nuts, almonds~^~ALMONDS~^~Includes USDA commodity food A256, A264~^~~^~Y~^~Shells~^60^~Prunus dulcis~^5.18^3.47^8.37^4.07
+~12087~^~1200~^~Nuts, cashew nuts, raw~^~NUTS,CASHEW NUTS,RAW~^~~^~~^~~^~~^^~Anacardium occidentale~^5.30^3.47^8.37^4.07
+~12108~^~1200~^~Nuts, coconut meat, dried (desiccated), not sweetened~^~COCONUT MEAT,DRIED (DESICCATED),NOT SWTND~^~~^~~^~Y~^~~^0^~~^5.30^3.47^8.37^4.07
+~12118~^~1200~^~Nuts, coconut milk, canned (liquid expressed from grated meat and water)~^~COCONUT MILK,CND (LIQ EXPRESSED FROM GRATED MEAT&H2O)~^~~^~~^~~^~~^0^~~^5.30^3.47^8.37^4.07
+~12142~^~1200~^~Nuts, pecans~^~PECANS~^~~^~~^~Y~^~Shells~^47^~Carya illinoinensis~^5.30^3.47^8.37^4.07
+~12155~^~1200~^~Nuts, walnuts, english~^~WALNUTS,ENGLISH~^~Includes USDA commodity food A259, A257~^~~^~Y~^~Shells~^55^~Juglans regia~^5.30^3.47^8.37^4.07
+~12166~^~1200~^~Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)~^~SESAME BUTTER,TAHINI,FROM RSTD&TSTD KRNLS (MOST COMMON TYPE)~^~~^~~^~Y~^~~^0^~~^5.30^3.47^8.37^4.07
+~12220~^~1200~^~Seeds, flaxseed~^~SEEDS,FLAXSEED~^~~^~~^~Y~^~~^0^~Linum usitatissimum~^5.30^3.47^8.37^4.07
+~15015~^~1500~^~Fish, cod, Atlantic, raw~^~COD,ATLANTIC,RAW~^~~^~~^~Y~^~~^0^~Gadus morhua (L.)~^6.25^4.27^9.02^3.87
+~15121~^~1500~^~Fish, tuna, light, canned in water, drained solids~^~FISH,TUNA,LT,CND IN H2O,DRND SOL~^~~^~~^~Y~^~~^0^~~^^^^
+~15149~^~1500~^~Crustaceans, shrimp, mixed species, raw (may have been previously frozen)~^~CRUSTACEANS,SHRIMP,MXD SP,RAW (MAYBE PREVIOUSLY FROZEN)~^~~^~~^~Y~^~~^0^~Penaeidae and Pandalidae~^6.25^4.27^9.02^4.11
 ~15236~^~1500~^~Fish, salmon, Atlantic, farmed, raw~^~SALMON,ATLANTIC,FARMED,RAW~^~~^~~^~Y~^~~^^~Salmo salar L.~^6.25^4.27^9.02^3.87
+~16014~^~1600~^~Beans, black, mature seeds, raw~^~BEANS,BLACK,MATURE SEEDS,RAW~^~~^~~^~Y~^~~^0^~Phaseolus vulgaris~^6.25^3.47^8.37^4.07
+~16015~^~1600~^~Beans, black, mature seeds, cooked, boiled, without salt~^~BEANS,BLACK,MATURE SEEDS,CKD,BLD,WO/SALT~^~~^~~^~Y~^~~^0^~~^6.25^3.47^8.37^4.07
+~16027~^~1600~^~Beans, kidney, all types, mature seeds, raw~^~BEANS,KIDNEY,ALL TYPES,MATURE SEEDS,RAW~^~~^~~^~~^~~^0^~Phaseolus vulgaris~^6.25^3.47^8.37^4.07
+~16028~^~1600~^~Beans, kidney, all types, mature seeds, cooked, boiled, without salt~^~BEANS,KIDNEY,ALL TYPES,MATURE SEEDS,CKD,BLD,WO/SALT~^~~^~~^~Y~^~~^0^~~^6.25^3.47^8.37^4.07
+~16042~^~1600~^~Beans, pinto, mature seeds, raw~^~BEANS,PINTO,MATURE SEEDS,RAW~^~Includes USDA commodity food A914, A942~^~~^~Y~^~~^0^~Phaseolus vulgaris~^6.25^^^
+~16043~^~1600~^~Beans, pinto, mature seeds, cooked, boiled, without salt~^~BEANS,PINTO,MATURE SEEDS,CKD,BLD,WO/SALT~^~~^~~^~Y~^~~^0^~~^6.25^3.47^8.37^4.07
 ~16056~^~1600~^~Chickpeas (garbanzo beans, bengal gram), mature seeds, raw~^~CHICKPEAS (GARBANZO BNS,BENGAL GM),MATURE SEEDS,RAW~^~~^~~^~Y~^~~^0^~Cicer arietinum~^6.25^3.47^8.37^4.07
+~16057~^~1600~^~Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt~^~CHICKPEAS ,MATURE SEEDS,CKD,BLD,WO/SALT~^~~^~~^~Y~^~~^0^~~^6.25^3.47^8.37^4.07
+~16058~^~1600~^~Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, solids and liquids~^~CHICKPEAS (GARBANZO BNS,BENGAL GRAM),MATURE SDS,CND,SOL&LIQ~^~~^~~^~~^~~^0^~~^6.25^3.47^8.37^4.07
 ~16069~^~1600~^~Lentils, raw~^~LENTILS,RAW~^~~^~~^~Y~^~~^0^~Lens culinaris~^6.25^3.47^8.37^4.07
+~16070~^~1600~^~Lentils, mature seeds, cooked, boiled, without salt~^~LENTILS,MATURE SEEDS,CKD,BLD,WO/SALT~^~~^~~^~Y~^~~^0^~~^6.25^3.47^8.37^4.07
+~16098~^~1600~^~Peanut butter, smooth style, with salt~^~PEANUT BUTTER,SMOOTH STYLE,W/ SALT~^~~^~~^~Y~^~~^0^~~^5.46^3.47^8.37^4.07
+~16123~^~1600~^~Soy sauce made from soy and wheat (shoyu)~^~SOY SAU MADE FROM SOY&WHEAT (SHOYU)~^~~^~~^~Y~^~~^0^~~^6.25^3.50^8.40^4.00
+~16426~^~1600~^~Tofu, raw, firm, prepared with calcium sulfate~^~TOFU,RAW,FIRM,PREP W/CA SULFATE~^~~^~~^~~^~~^0^~~^6.25^3.47^8.37^4.07
+~18370~^~1800~^~Leavening agents, baking powder, double-acting, straight phosphate~^~LEAVENING AGENTS,BAKING PDR,DOUBLE-ACTING,STRAIGHT PO4~^~~^~~^~Y~^~~^0^~~^6.20^1.80^8.40^2.10
+~18372~^~1800~^~Leavening agents, baking soda~^~LEAVENING AGENTS,BAKING SODA~^~~^~~^~Y~^~~^0^~~^0.00^^^
+~18373~^~1800~^~Leavening agents, cream of tartar~^~LEAVENING AGENTS,CRM OF TARTAR~^~~^~~^~Y~^~~^0^~~^6.20^3.50^8.40^4.20
+~18375~^~1800~^~Leavening agents, yeast, baker's, active dry~^~LEAVENING AGENTS,YEAST,BAKER'S,ACTIVE DRY~^~~^~~^~Y~^~~^0^~~^6.25^3.00^8.40^3.40
+~19165~^~1900~^~Cocoa, dry powder, unsweetened~^~COCOA,DRY PDR,UNSWTND~^~~^~~^~Y~^~~^0^~~^5.63^1.83^8.37^1.33
 ~19296~^~1900~^~Honey~^~HONEY~^~~^~~^~Y~^~~^0^~~^6.25^3.36^8.37^3.68
+~19334~^~1900~^~Sugars, brown~^~SUGARS,BROWN~^~~^~~^~Y~^~~^0^~~^6.25^4.00^0.00^3.87
 ~19335~^~1900~^~Sugars, granulated~^~SUGARS,GRANULATED~^~sucrose~^~~^~Y~^~~^0^~~^6.25^^^3.87
+~19353~^~1900~^~Syrups, maple~^~SYRUPS,MAPLE~^~~^~~^~Y~^~~^0^~~^6.25^3.36^8.37^3.87
+~20004~^~2000~^~Barley, hulled~^~BARLEY,HULLED~^~~^~~^~~^~~^0^~Hordeum vulgare L.~^5.83^3.55^8.37^3.95
+~20005~^~2000~^~Barley, pearled, raw~^~BARLEY,PEARLED,RAW~^~~^~~^~Y~^~~^0^~~^5.83^3.55^8.37^3.95
+~20008~^~2000~^~Buckwheat~^~BUCKWHEAT~^~~^~~^~~^~~^0^~Fagopyrum esculentum Moench~^6.25^3.37^8.37^3.78
+~20012~^~2000~^~Bulgur, dry~^~BULGUR,DRY~^~~^~~^~Y~^~~^0^~~^5.83^3.59^8.37^3.78
+~20020~^~2000~^~Cornmeal, whole-grain, yellow~^~CORNMEAL,WHOLE-GRAIN,YEL~^~~^~~^~~^~~^0^~~^6.25^2.73^8.37^4.03
+~20027~^~2000~^~Cornstarch~^~CORNSTARCH~^~~^~~^~Y~^~~^0^~~^6.25^3.46^8.37^4.16
+~20028~^~2000~^~Couscous, dry~^~COUSCOUS,DRY~^~~^~~^~~^~~^0^~~^5.70^4.05^8.37^4.12
+~20035~^~2000~^~Quinoa, uncooked~^~QUINOA,UNCKD~^~~^~~^~~^~~^0^~Chenopodium quinoa Willd.~^6.25^4.00^9.00^4.00
+~20036~^~2000~^~Rice, brown, long-grain, raw~^~RICE,BROWN,LONG-GRAIN,RAW~^~~^~~^~Y~^~~^0^~Oryza sativa L.~^5.95^3.41^8.37^4.12
 ~20044~^~2000~^~Rice, white, long-grain, regular, raw, enriched~^~RICE,WHITE,LONG-GRAIN,REG,RAW,ENR~^~~^~~^~Y~^~~^0^~~^5.95^3.82^8.37^4.16
 ~20045~^~2000~^~Rice, white, long-grain, regular, enriched, cooked~^~RICE,WHITE,LONG-GRAIN,REG,ENR,CKD~^~~^~~^~Y~^~~^0^~~^5.95^3.82^8.37^4.16
+~20061~^~2000~^~Rice flour, white, unenriched~^~RICE FLR,WHITE,UNENR~^~~^~~^~Y~^~~^0^~~^5.95^3.82^8.37^4.16
+~20080~^~2000~^~Wheat flour, whole-grain~^~WHEAT FLOUR,WHOLE-GRAIN~^~~^~~^~Y~^~~^0^~~^5.83^3.59^8.37^3.78
 ~20081~^~2000~^~Wheat flour, white, all-purpose, enriched, bleached~^~WHEAT FLR,WHITE,ALL-PURPOSE,ENR,BLEACHED~^~~^~~^~Y~^~~^0^~~^5.70^4.05^8.37^4.12
+~20083~^~2000~^~Wheat flour, white, bread, enriched~^~WHEAT FLR,WHITE,BREAD,ENR~^~~^~~^~Y~^~~^0^~~^5.70^4.05^8.37^4.12
+~20088~^~2000~^~Wild rice, raw~^~WILD RICE,RAW~^~~^~~^~Y~^~~^0^~Zizania spp.~^6.25^3.55^8.37^3.95
+~20109~^~2000~^~Noodles, egg, dry, enriched~^~NOODLES,EGG,DRY,ENRICHED~^~~^~~^~Y~^~~^0^~~^5.78^3.93^8.41^4.09
+~20120~^~2000~^~Pasta, dry, enriched~^~PASTA,DRY,ENR~^~macaroni product, spaghetti, elbow macaroni, lasagna, penne, rotini, farfalle, shells~^~~^~Y~^~~^0^~~^5.70^3.91^8.37^4.12
+~20124~^~2000~^~Pasta, whole-wheat, dry~^~PASTA,WHOLE-WHEAT,DRY~^~spaghetti, elbow macaroni, penne, farfalle, lasagna, shells, macaroni product~^~~^~~^~~^0^~~^5.83^3.59^8.37^3.78
+~20133~^~2000~^~Rice noodles, dry~^~RICE NOODLES,DRY~^~~^~~^~~^~~^0^~~^5.95^3.82^8.37^4.16
+~23567~^~1300~^~Beef, ground, 85% lean meat / 15% fat, raw~^~BEEF,GROUND,85% LN MEAT / 15% FAT,RAW~^~hamburger~^~~^~Y~^~~^0^~~^6.25^4.27^9.02^3.87
