@@ -19,7 +19,7 @@ class FoodLoggerApp(App):
         self.db_path = os.path.join(self.data_dir, "foods.db")
 
         # Copy pre-packaged database from source to app data directory if it doesn't exist
-        bundled_db = "foods.db"
+        bundled_db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "foods.db")
         if not os.path.exists(self.db_path) and os.path.exists(bundled_db):
             shutil.copy(bundled_db, self.db_path)
 
@@ -67,7 +67,7 @@ class FoodLoggerApp(App):
             conn.close()
 
             if rows:
-                result_text = f"Found {len(rows)} match(es):\n\n"
+                result_text = f"Found {len(rows)} match(es). Nutrition per 100 g:\n\n"
                 for row in rows:
                     name, cat, cal, pro, carb, fat = row
                     result_text += f"• {name} ({cat})\n  Calories: {cal} kcal | P: {pro}g | C: {carb}g | F: {fat}g\n\n"

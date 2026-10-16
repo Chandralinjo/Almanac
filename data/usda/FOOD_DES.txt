@@ -1,0 +1,26 @@
+~01001~^~0100~^~Butter, salted~^~BUTTER,WITH SALT~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01009~^~0100~^~Cheese, cheddar~^~CHEESE,CHEDDAR~^~~^~~^~Y~^~~^0^~~^^^^
+~01077~^~0100~^~Milk, whole, 3.25% milkfat, with added vitamin D~^~MILK,WHL,3.25% MILKFAT,W/ ADDED VITAMIN D~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01116~^~0100~^~Yogurt, plain, whole milk, 8 grams protein per 8 ounce~^~YOGURT,PLN,WHL MILK,8 GRAMS PROT PER 8 OZ~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01123~^~0100~^~Egg, whole, raw, fresh~^~EGG,WHL,RAW,FRSH~^~~^~~^~Y~^~Shell~^12^~~^6.25^4.36^9.02^3.68
+~02030~^~0200~^~Spices, pepper, black~^~PEPPER,BLACK~^~~^~~^~Y~^~~^0^~Piper nigrum~^5.35^1.83^8.37^3.20
+~02047~^~0200~^~Salt, table~^~SALT,TABLE~^~~^~~^~Y~^~~^0^~~^0.00^^^
+~04053~^~0400~^~Oil, olive, salad or cooking~^~OIL,OLIVE,SALAD OR COOKING~^~~^~~^~Y~^~~^0^~~^0.00^^8.84^
+~08120~^~0800~^~Cereals, oats, regular and quick, not fortified, dry~^~CEREALS,OATS,REG & QUICK,NOT FORT,DRY~^~oatmeal, old-fashioned oats, rolled oats~^~~^~Y~^~~^0^~~^5.83^3.46^8.37^4.12
+~09003~^~0900~^~Apples, raw, with skin~^~APPLES,RAW,WITH SKIN~^~Includes USDA commodity food A343~^~~^~Y~^~Core and stem~^10^~Malus domestica~^6.25^3.36^8.37^3.60
+~09040~^~0900~^~Bananas, raw~^~BANANAS,RAW~^~~^~~^~Y~^~Skin~^36^~Musa acuminata Colla~^6.25^3.36^8.37^3.60
+~11090~^~1100~^~Broccoli, raw~^~BROCCOLI,RAW~^~~^~~^~Y~^~Leaves and tough stalks with trimmings~^39^~Brassica oleracea var. italica~^^2.44^8.37^3.57
+~11124~^~1100~^~Carrots, raw~^~CARROTS,RAW~^~Includes USDA commodity food A099~^~~^~Y~^~Crown, tops and scrapings~^11^~Daucus carota~^6.25^2.78^8.37^3.84
+~11215~^~1100~^~Garlic, raw~^~GARLIC,RAW~^~~^~~^~Y~^~Knob and skin~^13^~Allium sativum~^6.25^2.78^8.37^3.84
+~11282~^~1100~^~Onions, raw~^~ONIONS,RAW~^~~^~~^~Y~^~Stem ends, sprouts and defects~^10^~Allium cepa~^6.25^2.78^8.37^3.84
+~11352~^~1100~^~Potatoes, flesh and skin, raw~^~POTATOES,FLESH & SKN,RAW~^~~^~~^~Y~^~Parings and trimmings~^25^~Solanum tuberosum~^6.25^2.78^8.37^4.03
+~11457~^~1100~^~Spinach, raw~^~SPINACH,RAW~^~~^~~^~Y~^~Large stems and roots~^28^~Spinacia oleracea~^6.25^2.44^8.37^3.57
+~11529~^~1100~^~Tomatoes, red, ripe, raw, year round average~^~TOMATOES,RED,RIPE,RAW,YEAR RND AVERAGE~^~Includes USDA commodity food A238, A233~^~~^~Y~^~Core and stem ends~^9^~Solanum lycopersicum~^6.25^2.44^8.37^3.57
+~15236~^~1500~^~Fish, salmon, Atlantic, farmed, raw~^~SALMON,ATLANTIC,FARMED,RAW~^~~^~~^~Y~^~~^^~Salmo salar L.~^6.25^4.27^9.02^3.87
+~16056~^~1600~^~Chickpeas (garbanzo beans, bengal gram), mature seeds, raw~^~CHICKPEAS (GARBANZO BNS,BENGAL GM),MATURE SEEDS,RAW~^~~^~~^~Y~^~~^0^~Cicer arietinum~^6.25^3.47^8.37^4.07
+~16069~^~1600~^~Lentils, raw~^~LENTILS,RAW~^~~^~~^~Y~^~~^0^~Lens culinaris~^6.25^3.47^8.37^4.07
+~19296~^~1900~^~Honey~^~HONEY~^~~^~~^~Y~^~~^0^~~^6.25^3.36^8.37^3.68
+~19335~^~1900~^~Sugars, granulated~^~SUGARS,GRANULATED~^~sucrose~^~~^~Y~^~~^0^~~^6.25^^^3.87
+~20044~^~2000~^~Rice, white, long-grain, regular, raw, enriched~^~RICE,WHITE,LONG-GRAIN,REG,RAW,ENR~^~~^~~^~Y~^~~^0^~~^5.95^3.82^8.37^4.16
+~20045~^~2000~^~Rice, white, long-grain, regular, enriched, cooked~^~RICE,WHITE,LONG-GRAIN,REG,ENR,CKD~^~~^~~^~Y~^~~^0^~~^5.95^3.82^8.37^4.16
+~20081~^~2000~^~Wheat flour, white, all-purpose, enriched, bleached~^~WHEAT FLR,WHITE,ALL-PURPOSE,ENR,BLEACHED~^~~^~~^~Y~^~~^0^~~^5.70^4.05^8.37^4.12

@@ -26,10 +26,10 @@ Acceptance: a backup from one phone restores onto a fresh offline install, inclu
 
 Uses the confirmed individual-ingredient alternative model; use synthetic food fixtures before catalog curation is complete. Pure domain work can start while the Android spike runs.
 
-- [ ] Implement ingredient/reference-unit models, explicit conversions, and validation.
-- [ ] Implement recipe choice validation, phase-aware scaling, nutrition completeness, and consumed-serving calculations.
-- [ ] Implement presence-only recommendation ranking and consistent ingredient/tag filtering.
-- [ ] Capture the numerical and ranking examples below as focused regression tests.
+- [x] Implement ingredient/reference-unit models, explicit conversions, and validation.
+- [x] Implement recipe choice validation, phase-aware scaling, nutrition completeness, and consumed-serving calculations.
+- [x] Implement presence-only recommendation ranking and consistent ingredient/tag filtering.
+- [x] Capture the numerical and ranking examples below as focused regression tests.
 
 **Exit:** independently tested functions produce correct totals and rankings for simple and multi-phase recipes, missing data, optional ingredients, and alternatives.
 
