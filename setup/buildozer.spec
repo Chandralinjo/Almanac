@@ -34,7 +34,7 @@ source.exclude_dirs = tests, tools, bin, work, .git, .github, .venv, .buildozer,
 source.exclude_patterns = data/usda/*,setup/main.py,setup/seed_database.py,setup/foods.db
 
 # (str) Application versioning (method 1)
-version = 0.2.0
+version = 0.3.0
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]

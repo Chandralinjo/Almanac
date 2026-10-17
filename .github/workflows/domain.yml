@@ -1,4 +1,4 @@
-name: Domain, storage and ingredient screens
+name: Domain, storage and app screens
 on: [push, pull_request]
 jobs:
   test:
@@ -10,7 +10,7 @@ jobs:
           python-version: '3.12'
       - run: python -m unittest discover -v
       - run: python -m pip install kivy==2.3.1
-      - name: Exercise Kivy ingredient screens
+      - name: Exercise Kivy ingredient and recipe screens
         run: python -m unittest tests.ui_smoke -v
         env:
           SDL_VIDEODRIVER: offscreen

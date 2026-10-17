@@ -16,6 +16,7 @@ from kivy.uix.togglebutton import ToggleButton
 
 from .forms import blank_record, parse_form
 from .storage import IngredientStore
+from .recipe_ui import RecipeScreens
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -37,10 +38,12 @@ def button(text, action, height=48):
     return widget
 
 
-class FoodLoggerApp(App):
+class FoodLoggerApp(RecipeScreens, App):
+    recipe_button = staticmethod(button)
+    recipe_label = staticmethod(label)
     # Retain the spike's class name: Kivy derives the existing data directory from it.
     def build(self):
-        self.title = 'Almanac — Ingredients'
+        self.title = 'Almanac'
         Window.softinput_mode = 'below_target'
         Window.bind(on_keyboard=self.keyboard)
         self.screen = 'list'
@@ -86,6 +89,7 @@ class FoodLoggerApp(App):
 
     def show_list(self):
         self.page('list')
+        self.body.add_widget(button('Recipe book', self.recipe_book))
         self.search = TextInput(text=self.query, hint_text='Search foods or categories',
                                 multiline=False, do_wrap=False, size_hint_y=None, height=dp(48))
         self.search.bind(text=self.refresh_results)
@@ -98,6 +102,8 @@ class FoodLoggerApp(App):
         self.body.add_widget(actions)
         self.results = self.scroll_column()
         self.refresh_results()
+        if self.store.recipe_draft():
+            self.body.add_widget(button('Resume unfinished recipe', lambda: self.recipe_editor(raw=self.store.recipe_draft())))
 
     def toggle_archived(self, widget, state):
         self.include_archived = state == 'down'
@@ -252,7 +258,7 @@ class FoodLoggerApp(App):
         else:
             leave()
 
-    def confirm(self, title, message, action):
+    def confirm(self, title, message, action, action_text=None):
         content = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
         content.add_widget(label(message))
         popup = Popup(title=title, content=content, size_hint=(.95, None), height=dp(290), auto_dismiss=False)
@@ -260,12 +266,23 @@ class FoodLoggerApp(App):
         def proceed():
             popup.dismiss()
             action()
-        content.add_widget(button('Discard edits' if self.screen == 'editor' else 'Reset corrections', proceed))
+        content.add_widget(button(action_text or ('Discard edits' if self.screen == 'editor' else 'Reset corrections'), proceed))
         popup.open()
 
     def keyboard(self, window, key, *_):
         if key not in (27,1001):
             return False
+        if self.screen == 'recipe_editor':
+            self.leave_recipe_editor()
+            return True
+        if self.screen in ('recipe_detail', 'recipes', 'preview'):
+            if self.screen == 'preview':
+                self.recipe_detail(self.recipe_id)
+            elif self.screen == 'recipe_detail':
+                self.recipe_book()
+            else:
+                self.show_list()
+            return True
         if self.screen == 'editor':
             self.leave_editor()
             return True
@@ -275,6 +292,8 @@ class FoodLoggerApp(App):
         return False
 
     def on_pause(self):
+        if self.screen == 'recipe_editor':
+            self.draft_changed()
         return True
 
     def on_stop(self):

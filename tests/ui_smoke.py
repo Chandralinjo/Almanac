@@ -102,6 +102,81 @@ class IngredientScreens(unittest.TestCase):
         self.tap('Reset corrections',popup)
         self.assertEqual(self.app.store.get(before['id'])['conversions'],before['conversions'])
 
+    def test_recipe_create_reopen_preview_and_draft_recovery(self):
+        from almanac.recipes import blank_line, blank_recipe, uid
+        from almanac.domain import calculate, Choices
+        raw = blank_recipe()
+        raw.update(name='Egg choice', servings='2')
+        egg = blank_line('usda-sr28:01123')
+        egg.update(quantity='2', unit='piece')
+        oil = blank_line('usda-sr28:04053')
+        butter = blank_line('usda-sr28:01001')
+        raw['phases'][0]['entries'] = [egg, dict(id=uid(), optional=False, options=[oil,butter])]
+        self.app.recipe_editor(raw=raw)
+        self.tap('Save recipe')
+        self.assertEqual(self.app.screen,'recipe_detail')
+        recipe = self.app.store.get_recipe(raw['id'])
+        self.tap('Cooking preview')
+        group = recipe.phases[0].entries[1]
+        foods = {r['id']:self.app.store.ingredient(r['id']) for r in self.app.store.list()}
+        self.assertEqual(self.app.preview_result, calculate(recipe, foods,
+                         Choices(alternatives={group.id:group.options[0].id})))
+        self.app.recipe_editor(recipe.id)
+        fields = [w for w in self.app.body.walk() if hasattr(w,'text') and w.text=='Egg choice']
+        fields[0].text = 'Unfinished title'
+        self.assertEqual(self.app.store.recipe_draft()['name'],'Unfinished title')
+        self.assertTrue(self.app.on_pause())
+        self.assertTrue(self.app.keyboard(Window,27))
+        self.assertEqual(self.app.screen,'recipes')
+        self.tap('Resume unfinished recipe')
+        self.assertEqual(self.app.recipe_raw['name'],'Unfinished title')
+        self.app.recipe_raw['phases'][0]['entries'][1]['options'] = []
+        self.tap('Save recipe')
+        self.assertEqual(self.app.screen,'recipe_editor')
+        self.assertIn('Not saved',self.app.status.text)
+        self.assertEqual(self.app.store.get_recipe(recipe.id),recipe)
+        self.tap('Discard draft')
+        popup=next(c for c in Window.children if isinstance(c,Popup))
+        self.tap('Discard draft',popup)
+        self.assertIsNone(self.app.store.recipe_draft())
+
+    def test_recipe_editor_controls_and_preview_choice_updates(self):
+        from kivy.uix.spinner import Spinner
+        from kivy.uix.textinput import TextInput
+        from kivy.uix.togglebutton import ToggleButton
+        from almanac.domain import calculate, Choices
+        self.app.recipe_editor()
+        # Set metadata directly; exercise structure and ingredient selection through controls.
+        self.app.recipe_raw['name'] = 'Options'
+        self.tap('Add alternative group')
+        spinners = [w for w in self.app.body.walk() if isinstance(w,Spinner)]
+        for spinner, food in zip(spinners, ('usda-sr28:01123','usda-sr28:04053')):
+            spinner.text = next(v for v in spinner.values if food in v)
+        self.tap('Add phase')
+        self.assertEqual(len(self.app.recipe_raw['phases']),2)
+        self.tap('Move phase up')
+        toggle = next(w for w in self.app.body.walk() if isinstance(w,ToggleButton))
+        toggle.state = 'down'
+        self.tap('Save recipe')
+        self.assertEqual(self.app.screen,'recipe_detail')
+        id = self.app.recipe_id
+        self.app.cooking_preview(id)
+        self.assertEqual(len(self.app.preview_result.lines),0)
+        toggle = next(w for w in self.app.body.walk() if isinstance(w,ToggleButton))
+        toggle.state = 'down'
+        spinner = next(w for w in self.app.body.walk() if isinstance(w,Spinner))
+        spinner.text = spinner.values[1]
+        target = next(w for w in self.app.body.walk() if isinstance(w,TextInput))
+        target.text = '3'
+        recipe = self.app.store.get_recipe(id)
+        group = next(e for p in recipe.phases for e in p.entries)
+        foods = {r['id']:self.app.store.ingredient(r['id']) for r in self.app.store.list()}
+        self.assertEqual(self.app.preview_result, calculate(recipe, foods,
+            Choices(frozenset([group.id]), {group.id:group.options[1].id}),3))
+        target.text = '0'
+        self.assertIsNone(self.app.preview_result)
+        self.assertIn('Cannot preview',self.app.status.text)
+
     def test_production_startup_imports_legacy_and_reopens(self):
         from unittest.mock import PropertyMock, patch
         import shutil

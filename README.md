@@ -1,6 +1,7 @@
 # Almanac
 
-Offline Android recipe and nutrient tracker using Python/Kivy. M2 now provides
+Offline Android recipe and nutrient tracker using Python/Kivy. M3 adds a recipe book, structured phase/choice editor, persistent unfinished drafts,
+and cooking previews with scaling and incomplete-nutrition explanations. M2 provides
 ingredient browse/search/detail/add/edit screens, explicit reference units and
 conversions, reversible archive, and transactional persistent storage. The 169-food
 USDA catalog initializes offline and upgrades without replacing personal edits.
@@ -23,8 +24,8 @@ for storage/migration details, desktop UI checks and the Galaxy S25 checklist.
 Source provenance, nutrient definitions, portion assumptions and reproducible
 curation instructions are in `data/README.md`. Runtime uses bundled
 `data/staples.json`; `setup/foods.db` remains a reproducible M1 seed/migration
-fixture. There is no runtime network access. Recipe/pantry/logging screens and
-backup remain future milestones.
+fixture. There is no runtime network access. Pantry/logging screens and backup remain future milestones. See `docs/M3.md`
+for recipe usage, persistence and the device verification checklist.
 
 ## M1 API
 
@@ -80,6 +81,6 @@ and ID. The M1 search enumerates branch combinations for exact results, includin
 shared alternatives. Its worst case is exponential; large recipe collections and
 branch-heavy recipes need M4 performance profiling before UI integration.
 
-M3–M6 retain responsibility for recipe screens, pantry UI, meal storage and backup.
+M4–M6 retain responsibility for pantry UI, meal storage and backup.
 M2 persistence is implemented in `almanac/storage.py`, with domain-validated forms
 in `almanac/forms.py` and Kivy screens in `almanac/ui.py`.

@@ -13,7 +13,7 @@ from uuid import uuid4
 
 from .domain import Ingredient, Nutrition, NUTRIENTS
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 FIELDS = ('name', 'category', 'reference_amount', 'reference_unit', 'conversions',
           'conversion_descriptions', 'source', 'source_id')
 
@@ -158,6 +158,15 @@ class IngredientStore:
             self.conn.execute('ALTER TABLE seed_records ADD COLUMN pinned INTEGER NOT NULL DEFAULT 0 CHECK(pinned IN (0,1))')
             self.conn.execute('ALTER TABLE seed_records ADD COLUMN available INTEGER NOT NULL DEFAULT 1 CHECK(available IN (0,1))')
             self.conn.execute('PRAGMA user_version=2')
+            version = 2
+        if version == 2:
+            self.conn.execute('CREATE TABLE recipes(id TEXT PRIMARY KEY, payload TEXT NOT NULL)')
+            self.conn.execute('''CREATE TABLE recipe_ingredients(
+                recipe_id TEXT NOT NULL REFERENCES recipes(id) ON DELETE CASCADE,
+                ingredient_id TEXT NOT NULL REFERENCES ingredients(id) ON DELETE RESTRICT,
+                PRIMARY KEY(recipe_id,ingredient_id))''')
+            self.conn.execute('CREATE TABLE recipe_draft(slot INTEGER PRIMARY KEY CHECK(slot=1), payload TEXT NOT NULL)')
+            self.conn.execute('PRAGMA user_version=3')
 
     def _metadata(self, key):
         row = self.conn.execute('SELECT value FROM metadata WHERE key=?', (key,)).fetchone()
@@ -325,6 +334,49 @@ class IngredientStore:
         r = self.get(id)
         return Ingredient(r['id'], r['name'], Nutrition(**r['nutrition']), r['reference_amount'],
                           r['reference_unit'], r['conversions'], r['source'])
+
+    def save_recipe(self, recipe):
+        from .recipes import recipe_record
+        from .domain import Alternative
+        # Revalidate even callers outside the editor, including every hidden option.
+        from .recipes import parse_recipe
+        raw = recipe_record(recipe)
+        recipe = parse_recipe(raw)
+        ids = {l.ingredient_id for p in recipe.phases for e in p.entries
+               for l in (e.options if isinstance(e, Alternative) else (e,))}
+        with self.transaction():
+            for id in ids:
+                self.get(id)
+            self.conn.execute('INSERT OR REPLACE INTO recipes VALUES (?,?)', (recipe.id, encode(raw)))
+            self.conn.execute('DELETE FROM recipe_ingredients WHERE recipe_id=?', (recipe.id,))
+            self.conn.executemany('INSERT INTO recipe_ingredients VALUES (?,?)', ((recipe.id, id) for id in ids))
+            self.conn.execute('DELETE FROM recipe_draft')
+        return recipe
+
+    def get_recipe(self, id):
+        from .recipes import parse_recipe
+        row = self.conn.execute('SELECT payload FROM recipes WHERE id=?', (id,)).fetchone()
+        if row is None:
+            raise KeyError(id)
+        return parse_recipe(json.loads(row[0]))
+
+    def list_recipes(self, query=''):
+        recipes = [self.get_recipe(r[0]) for r in self.conn.execute('SELECT id FROM recipes')]
+        words = query.casefold().split()
+        return sorted((r for r in recipes if all(w in (r.name + ' ' + ' '.join(r.tags)).casefold() for w in words)),
+                      key=lambda r: (r.name.casefold(), r.id))
+
+    def save_recipe_draft(self, raw):
+        with self.transaction():
+            self.conn.execute('INSERT OR REPLACE INTO recipe_draft VALUES (1,?)', (encode(raw),))
+
+    def recipe_draft(self):
+        row = self.conn.execute('SELECT payload FROM recipe_draft WHERE slot=1').fetchone()
+        return json.loads(row[0]) if row else None
+
+    def clear_recipe_draft(self):
+        with self.transaction():
+            self.conn.execute('DELETE FROM recipe_draft')
 
     def close(self):
         self.conn.close()

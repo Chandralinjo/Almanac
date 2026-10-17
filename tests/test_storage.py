@@ -239,13 +239,15 @@ IngredientStore(sys.argv[1], seed, checkpoint=stop)
         store = self.open(seed)
         record = store.create(custom())
         store.archive(record['id'])
+        for table in ('recipe_ingredients', 'recipes', 'recipe_draft'):
+            store.conn.execute('DROP TABLE ' + table)
         store.conn.execute('ALTER TABLE seed_records DROP COLUMN pinned')
         store.conn.execute('ALTER TABLE seed_records DROP COLUMN available')
         store.conn.execute('PRAGMA user_version=1')
         store.close()
         store = self.open(seed)
         self.assertTrue(store.get(record['id'])['archived'])
-        self.assertEqual(store.conn.execute('PRAGMA user_version').fetchone()[0],2)
+        self.assertEqual(store.conn.execute('PRAGMA user_version').fetchone()[0],3)
 
     def test_sourced_spike_import_once_leaves_original_untouched(self):
         legacy = Path(self.temp.name) / 'foods.db'
@@ -346,6 +348,8 @@ IngredientStore(sys.argv[1],json.load(open(sys.argv[2])),checkpoint=stop)
     def test_failed_schema_migration_preserves_version_and_records(self):
         store=self.open()
         added=store.create(custom())
+        for table in ('recipe_ingredients', 'recipes', 'recipe_draft'):
+            store.conn.execute('DROP TABLE ' + table)
         store.conn.execute('ALTER TABLE seed_records DROP COLUMN pinned')
         store.conn.execute('ALTER TABLE seed_records DROP COLUMN available')
         store.conn.execute('PRAGMA user_version=1')

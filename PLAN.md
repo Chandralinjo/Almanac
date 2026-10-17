@@ -48,10 +48,10 @@ Depends on M0's data selection and M1's ingredient contracts.
 
 Depends on M1 and M2.
 
-- [ ] Build recipe list, detail, and editor with ingredients, instructions, notes, tags, servings, and ordered phases.
-- [ ] Add the confirmed required/optional/alternative editor; prevent invalid empty or contradictory choice structures.
-- [ ] Add a cooking preview for target servings and selected choices, with whole/per-serving nutrition and visible missing-data explanations.
-- [ ] Preserve unfinished edits across routine Android lifecycle events; show validation inline and prevent accidental loss when navigating back.
+- [x] Build recipe list, detail, and editor with ingredients, instructions, notes, tags, servings, and ordered phases.
+- [x] Add the confirmed required/optional/alternative editor; prevent invalid empty or contradictory choice structures.
+- [x] Add a cooking preview for target servings and selected choices, with whole/per-serving nutrition and visible missing-data explanations.
+- [x] Preserve unfinished edits across routine Android lifecycle events; show validation inline and prevent accidental loss when navigating back.
 
 **Exit:** create, save, reopen, edit, and scale a recipe with phases and alternatives; preview matches the domain calculations exactly.
 
